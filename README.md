@@ -1,6 +1,6 @@
 <h1 align="center">Projeto Análise Microdados Enem 2021</h1>
 
-## Projeto Entra21
+## Entra21 / 2022
 
 ![Badge em Desenvolvimento](http://img.shields.io/static/v1?label=STATUS&message=EM%20DESENVOLVIMENTO&color=GREEN&style=for-the-badge)
 
@@ -36,14 +36,14 @@
 <p align="center">
     <img src="https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54" height="25"/>
     <img src="https://img.shields.io/badge/sqlite-%2307405e.svg?style=for-the-badge&logo=sqlite&logoColor=white" height="25"/>
-    <img src="https://img.shields.io/badge/-GitHub-181717?style=flat-square&logo=github" height="25"/>
+    <img src="https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white" height="25"/>
     <img src="https://img.shields.io/badge/Visual%20Studio%20Code-0078d7.svg?style=for-the-badge&logo=visual-studio-code&logoColor=white" height="25"/>
     <img src="https://img.shields.io/badge/heroku-%23430098.svg?style=for-the-badge&logo=heroku&logoColor=white" height="25"/>
 
 ## 5. Fontes de pesquisa e referências.
   - Microdados ENEM: (http://portal.inep.gov.br/microdados)
   - Portal Brasileiro de Dados Abertos: (http://dados.gov.br/)
-  - Python org: (https://docs.python.org)
+  - Python: (https://docs.python.org/3/)
   - SQLite: (https://www.sqlite.org/)
   - Heroku: (https://www.heroku.com/)
   - GitHub: (https://github.com/)
