@@ -37,6 +37,7 @@
     <img src="https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54" height="25"/>
     <img src="https://img.shields.io/badge/sqlite-%2307405e.svg?style=for-the-badge&logo=sqlite&logoColor=white" height="25"/>
     <img src="https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white" height="25"/>
+    <img src="https://img.shields.io/badge/jupyter-%23FA0F00.svg?style=for-the-badge&logo=jupyter&logoColor=white" height="25"/>
     <img src="https://img.shields.io/badge/Visual%20Studio%20Code-0078d7.svg?style=for-the-badge&logo=visual-studio-code&logoColor=white" height="25"/>
     <img src="https://img.shields.io/badge/heroku-%23430098.svg?style=for-the-badge&logo=heroku&logoColor=white" height="25"/>
 
@@ -44,10 +45,13 @@
   - Microdados ENEM: (http://portal.inep.gov.br/microdados)
   - Portal Brasileiro de Dados Abertos: (http://dados.gov.br/)
   - Python: (https://docs.python.org/3/)
+  - Pandas: (https://pandas.pydata.org/docs/reference/)
   - SQLite: (https://www.sqlite.org/)
+  - Jupyter: (https://jupyter.org/)
   - Heroku: (https://www.heroku.com/)
   - GitHub: (https://github.com/)
   - Markdown: (https://www.markdownguide.org/)
+  
 
 ## 6 - ⭐ Estatísticas do GitHub
 <p align = "centro">
