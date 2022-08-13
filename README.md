@@ -21,7 +21,7 @@
 | [<img src="https://avatars.githubusercontent.com/u/104105033?v=4" width=60><br><sub>Rafael Rosso</sub>](https://github.com/RafaelRosso)
 | :---: |
 
-| [<img src="" width=60><br><sub>Sylvio Carneiro Junior</sub>]()
+| [<img src="https://avatars.githubusercontent.com/u/96093825?v=4" width=60><br><sub>Sylvio Carneiro Junior</sub>](https://github.com/sylviocjr)
 | :---: |
 
 
