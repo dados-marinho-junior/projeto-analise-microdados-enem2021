@@ -9,7 +9,7 @@
 | [<img src="" width=60><br><sub>Diogo Lindemann </sub>]()
 | :---: |
    
-| [<img src="https://avatars.githubusercontent.com/u/104402499?s=400&u=968d41c0f8eac46ed7957638e0b71dc64470d517&v=4" width=60><br><sub>Francisco de Assis</sub>](https://github.com/dados-marinho-junior.git)
+| [<img src="https://avatars.githubusercontent.com/u/104402499?s=400&u=968d41c0f8eac46ed7957638e0b71dc64470d517&v=4" width=60><br><sub>Francisco de Assis</sub>](https://github.com/dados-marinho-junior)
 | :---: |
 
 | [<img src="" width=60><br><sub>Luana Naiara</sub>]()
