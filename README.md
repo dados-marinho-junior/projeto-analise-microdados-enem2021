@@ -15,7 +15,7 @@
 | [<img src="" width=60><br><sub>Luana Naiara</sub>]()
 | :---: |
 
-| [<img src="" width=60><br><sub>Marcelo Takahashi</sub>]()
+| [<img src="https://avatars.githubusercontent.com/u/104110666?s=400&u=1aad95f708b7ba870b74252457d138e3464cf188&v=4" width=60><br><sub>Marcelo Takahashi</sub>](https://github.com/MYTakahashi)
 | :---: |
 
 | [<img src="https://avatars.githubusercontent.com/u/104105033?v=4" width=60><br><sub>Rafael Rosso</sub>](https://github.com/RafaelRosso)
