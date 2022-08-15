@@ -6,26 +6,13 @@
 
 
 ## Autores:
-| [<img src="" width=60><br><sub>Diogo Lindemann </sub>]()
-| :---: |
-   
-| [<img src="https://avatars.githubusercontent.com/u/104402499?s=400&u=968d41c0f8eac46ed7957638e0b71dc64470d517&v=4" width=60><br><sub>Francisco de Assis</sub>](https://github.com/dados-marinho-junior)
-| :---: |
+<div align="center">
 
-| [<img src="" width=60><br><sub>Luana Naiara</sub>]()
-| :---: |
+| [<img src="https://avatars.githubusercontent.com/u/104396832?v=4" width=60><br><sub>Diogo Lindemann </sub>](https://github.com/diogoray) | [<img src="https://avatars.githubusercontent.com/u/104402499?s=400&u=968d41c0f8eac46ed7957638e0b71dc64470d517&v=4" width=60><br><sub>Francisco de Assis</sub>](https://github.com/dados-marinho-junior) | [<img src="https://avatars.githubusercontent.com/u/104043545?v=4" width=60><br><sub>Luana Naiara</sub>](https://github.com/LuhNaiara) | [<img src="https://avatars.githubusercontent.com/u/104110666?s=400&u=1aad95f708b7ba870b74252457d138e3464cf188&v=4" width=60><br><sub>Marcelo Takahashi</sub>](https://github.com/MYTakahashi) | [<img src="https://avatars.githubusercontent.com/u/104105033?v=4" width=60><br><sub>Rafael Rosso</sub>](https://github.com/RafaelRosso) | [<img src="https://avatars.githubusercontent.com/u/96093825?v=4" width=60><br><sub>Sylvio Carneiro Junior</sub>](https://github.com/sylviocjr) | [<img src="https://avatars.githubusercontent.com/u/89116697?v=4" width=60><br><sub>Prof. Adriano Machado</sub>](https://github.com/Machado-tec)
+| --- | --- | --- | --- | --- | --- | --- |
 
-| [<img src="https://avatars.githubusercontent.com/u/104110666?s=400&u=1aad95f708b7ba870b74252457d138e3464cf188&v=4" width=60><br><sub>Marcelo Takahashi</sub>](https://github.com/MYTakahashi)
-| :---: |
-
-| [<img src="https://avatars.githubusercontent.com/u/104105033?v=4" width=60><br><sub>Rafael Rosso</sub>](https://github.com/RafaelRosso)
-| :---: |
-
-| [<img src="https://avatars.githubusercontent.com/u/96093825?v=4" width=60><br><sub>Sylvio Carneiro Junior</sub>](https://github.com/sylviocjr)
-| :---: |
-
-
-
+##
+</div>
 
 ## 1. O que é o projeto
 
