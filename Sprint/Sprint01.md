@@ -21,8 +21,8 @@
 - Utilizado o parâmetro 'index = False' no script TCC_II no momento da criação do DF resumido a ser utilizado. Este parâmetro não permite a criação de coluna com os índices, que gera coluna 'Unnamed: 0' nos novos DFs derivados.
 - Atualizado o arquivo em csv gerado a partir do script TCC_II;
 - Reunião online dos integrantes da equipe para continuação dos trabalhos iniciais referentes ao projeto de conclusão de curso;
-- Feitas apresentações sobre as primeiras análises estatísticas sobre os atributos inicialmente definidos como objetos do trabalho, momento em que verificou-se que vários dos atributos inicialmente selecionados apresentaram grande quantidade de valores vazios, a ponto de prejudicar qualquer tipo de análise com os mesmos;
-- Foi feita a opção pela inserção de novas colunas em substituição às que foram eliminadas, ampliando novamente o escopo das análises futuras. Ao mesmo tempo, optou-se pela inserção de colunas que anteriormente não haviam sido selecionadas;
+- Feitas apresentações a respeito das primeiras análises estatísticas sobre os atributos inicialmente definidos como objetos do trabalho, momento em que verificou-se que vários das colunas inicialmente selecionadas apresentaram grande quantidade de valores vazios, a ponto de prejudicar qualquer tipo de análise com as mesmas;
+- Foi feita a opção pela inserção de novas colunas em substituição às que foram eliminadas, ampliando novamente o escopo das análises futuras. Ao mesmo tempo, optou-se pela inserção de colunas que anteriormente não haviam sido consideradas, mas que se revelaram importantes para o projeto;
 - Criado um diretório no Google Drive para compartilhamento de arquivos entre os membros da equipe - link de acesso em <https://drive.google.com/drive/u/1/folders/1eXWQ8HOOUxKgyQCPdjJovsSDCPuKIQSE>;
 - Drop de uma linha específica e única que continha diversas colunas com valores vazios - script TCC_II; 
 
