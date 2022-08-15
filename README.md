@@ -33,17 +33,17 @@
     <img src="https://img.shields.io/badge/heroku-%23430098.svg?style=for-the-badge&logo=heroku&logoColor=white" height="25"/>
 
 ## 5. Fontes de pesquisa e referências.
-  - Microdados ENEM: (https://www.gov.br/inep/pt-br/acesso-a-informacao/dados-abertos/microdados/enem)
-  - Portal Brasileiro de Dados Abertos: (http://dados.gov.br/)
-  - Python: (https://docs.python.org/3/)
-  - Pandas: (https://pandas.pydata.org/docs/reference/)
-  - SQLite: (https://www.sqlite.org/)
-  - Jupyter: (https://jupyter.org/)
-  - Heroku: (https://www.heroku.com/)
-  - GitHub: (https://github.com/)
-  - Plotly Python: (https://plotly.com/python/)
-  - Markdown: (https://www.markdownguide.org/)
-  - Google Drive: (https://drive.google.com/drive/folders/1eXWQ8HOOUxKgyQCPdjJovsSDCPuKIQSE)
+  - [Microdados ENEM](https://www.gov.br/inep/pt-br/acesso-a-informacao/dados-abertos/microdados/enem)
+  - [Portal Brasileiro de Dados Abertos](http://dados.gov.br/)
+  - [Python](https://docs.python.org/3/)
+  - [Pandas](https://pandas.pydata.org/docs/reference/)
+  - [SQLite](https://www.sqlite.org/)
+  - [Jupyter](https://jupyter.org/)
+  - [Heroku](https://www.heroku.com/)
+  - [GitHub](https://github.com/)
+  - [Plotly Python](https://plotly.com/python/)
+  - [Markdown](https://www.markdownguide.org/)
+  - [Google Drive](https://drive.google.com/drive/folders/1eXWQ8HOOUxKgyQCPdjJovsSDCPuKIQSE)
   
 
 ## 6 - ⭐ Estatísticas do GitHub
