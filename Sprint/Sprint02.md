@@ -1,4 +1,4 @@
-<h1 align="center"> Sprint Semana 01 </h1>
+<h1 align="center"> Sprint Semana 02 </h1>
 
 # Semana de 15 a 19/08/2022
 
