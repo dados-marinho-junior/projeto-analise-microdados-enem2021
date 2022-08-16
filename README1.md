@@ -4,7 +4,11 @@
 
 <br>
 
-### 📁 Qual o objetivo do repositório?
+![Badge em Desenvolvimento](http://img.shields.io/static/v1?label=STATUS&message=EM%20DESENVOLVIMENTO&color=GREEN&style=for-the-badge)
+
+<br>
+
+### 💼 Qual o objetivo do repositório?
 - Analizar os microdados do Exame Nacional do Ensino Médio (Enem), do ano 2021. No âmbito social para que possamos fazer uma analize do contexto brasileiro de crise das instituições democráticas e da educação pública e privada. Neste projeto teremos a oportunidade de discutir e contribuir com informações e compreensões dos fenômenos recentes e as possibilidades de transformação social, para que gestores e lesgisladores tomem devidas ações com essas informações. 
 
 <br>
@@ -61,7 +65,7 @@
 
 <br>
 
-## Fontes de pesquisa e referências.
+## 💬 Fontes de pesquisa e referências.
   - [Microdados ENEM](https://www.gov.br/inep/pt-br/acesso-a-informacao/dados-abertos/microdados/enem)
   - [Portal Brasileiro de Dados Abertos](http://dados.gov.br/)
   - [Python](https://docs.python.org/3/)
