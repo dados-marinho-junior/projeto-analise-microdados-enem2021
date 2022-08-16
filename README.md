@@ -20,11 +20,11 @@
 
 ## 3. Onde os usuários podem ter acesso ao projeto.
    ### 📁 Acesso ao projeto
-**Link GitHub (https://github.com/dados-marinho-junior/projeto-analise-microdados-enem2021.git).**
+**[Link GitHub](https://github.com/dados-marinho-junior/projeto-analise-microdados-enem2021.git)**
 <span align="center">
 
 ## 4 - 💻 Tecnologias e Ferramentas
-<p align="center">
+<p align="left">
     <img src="https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54" height="25"/>
     <img src="https://img.shields.io/badge/sqlite-%2307405e.svg?style=for-the-badge&logo=sqlite&logoColor=white" height="25"/>
     <img src="https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white" height="25"/>
@@ -45,6 +45,25 @@
   - [Markdown](https://www.markdownguide.org/)
   - [Google Drive](https://drive.google.com/drive/folders/1eXWQ8HOOUxKgyQCPdjJovsSDCPuKIQSE)
   
+<br>
+
+## 📅 As Sprints
+
+<img align="right" width="150" height="100" src="https://github.com/Time-1-ADS/ProjetoGSW/blob/sprints/Imagens%20Geral/sprintsimg.png">
+
+🔖 SPRINT 1 ([Link da Pasta](Sprint\Sprint01.md)):  Concluído ☑️ 
+
+🔖 SPRINT 2 ([Link da Pasta](Sprint\Sprint02.md)):  
+
+<br>
+
+ <h2 align="left">🚀 Dashboard está no ar </h2>
+
+   ![ezgif com-gif-maker (1)](https://user-images.githubusercontent.com/104402499/184792271-e6c9819b-c019-424e-8892-0171ff53eaf0.gif)
+
+
+[Dashboard](docs\views_inicio_projeto\data_studio_teste.md "Link")
+
 
 ## 6 - ⭐ Estatísticas do GitHub
 <p align = "centro">
