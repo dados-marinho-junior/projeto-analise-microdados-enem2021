@@ -15,8 +15,10 @@
 </div>
 
 ## 1. O que é o projeto
+- Analizar os microdados do Exame Nacional do Ensino Médio (Enem), do ano 2021. No âmbito social para que possamos fazer uma analize do contexto brasileiro de crise das instituições e da educação pública e privada. 
 
 ## 2. Para que o projeto é útil
+- Neste projeto teremos a oportunidade de discutir e contribuir com informações e compreensões dos fenômenos recentes e as possibilidades de transformação social, para que gestores e lesgisladores tomem devidas ações com essas informações. 
 
 ## 3. Onde os usuários podem ter acesso ao projeto.
    ### 📁 Acesso ao projeto
@@ -25,12 +27,15 @@
 
 ## 4 - 💻 Tecnologias e Ferramentas
 <p align="left">
-    <img src="https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54" height="25"/>
+        <img src="https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54" height="25"/>
     <img src="https://img.shields.io/badge/sqlite-%2307405e.svg?style=for-the-badge&logo=sqlite&logoColor=white" height="25"/>
+    <img src="https://img.shields.io/badge/mysql-%2300f.svg?style=for-the-badge&logo=mysql&logoColor=white" height="25"/>
     <img src="https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white" height="25"/>
     <img src="https://img.shields.io/badge/jupyter-%23FA0F00.svg?style=for-the-badge&logo=jupyter&logoColor=white" height="25"/>
     <img src="https://img.shields.io/badge/Visual%20Studio%20Code-0078d7.svg?style=for-the-badge&logo=visual-studio-code&logoColor=white" height="25"/>
     <img src="https://img.shields.io/badge/heroku-%23430098.svg?style=for-the-badge&logo=heroku&logoColor=white" height="25"/>
+    <img src="https://img.shields.io/badge/pandas-%23150458.svg?style=for-the-badge&logo=pandas&logoColor=white" height="25"/>
+    <img src="https://user-images.githubusercontent.com/104402499/184909582-e179abed-d8d3-4890-bd68-c9895636936d.png" height="15"/>
 
 ## 5. Fontes de pesquisa e referências.
   - [Microdados ENEM](https://www.gov.br/inep/pt-br/acesso-a-informacao/dados-abertos/microdados/enem)
@@ -47,7 +52,7 @@
   
 <br>
 
-## 📅 As Sprints
+## 6. 📅 As Sprints
 
 <img align="right" width="150" height="100" src="https://github.com/Time-1-ADS/ProjetoGSW/blob/sprints/Imagens%20Geral/sprintsimg.png">
 
@@ -57,7 +62,7 @@
 
 <br>
 
- <h2 align="left">🚀 Dashboard está no ar </h2>
+ <h2 align="left">7. 🚀 Dashboard está no ar </h2>
 
    ![ezgif com-gif-maker (1)](https://user-images.githubusercontent.com/104402499/184792271-e6c9819b-c019-424e-8892-0171ff53eaf0.gif)
 
@@ -65,7 +70,7 @@
 [Dashboard](docs\views_inicio_projeto\data_studio_teste.md "Link")
 
 
-## 6 - ⭐ Estatísticas do GitHub
+## 8 - ⭐ Estatísticas do GitHub
 <p align = "centro">
   <img src = "">
   <img src = "">
