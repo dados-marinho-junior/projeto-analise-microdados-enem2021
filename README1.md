@@ -40,9 +40,11 @@
 
 <br>
 
-## 📅 As Sprints
+## 📅 As Sprints 
 
-<img align="right" width="100" height="70" src= ![sprintsimg](https://user-images.githubusercontent.com/104402499/184881304-f9f1eab8-c72a-474e-8c5c-cce904d8686b.png)>
+<img align="right" width="140" height="120" src="https://user-images.githubusercontent.com/104402499/184881304-f9f1eab8-c72a-474e-8c5c-cce904d8686b.png">
+
+<br> 
 
 🔖 SPRINT 1 ([Link da Pasta](Sprint\Sprint01.md)):  Concluído ☑️ 
 
