@@ -15,7 +15,7 @@
 </div>
 
 ## 1. O que é o projeto
-- Analizar os microdados do Exame Nacional do Ensino Médio (Enem), do ano 2021. No âmbito social para que possamos fazer uma analize do contexto brasileiro de crise das instituições e da educação pública e privada. 
+- Analisar os microdados do Exame Nacional do Ensino Médio (Enem), do ano 2021. No âmbito social para que possamos fazer uma análise do contexto brasileiro de crise das instituições e da educação pública e privada. 
 
 ## 2. Para que o projeto é útil
 - Neste projeto teremos a oportunidade de discutir e contribuir com informações e compreensões dos fenômenos recentes e as possibilidades de transformação social, para que gestores e lesgisladores tomem devidas ações com essas informações. 
