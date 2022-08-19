@@ -9,7 +9,12 @@
 <br>
 
 ## 💼 Qual o objetivo do repositório?
-- Analisar os microdados do Exame Nacional do Ensino Médio (Enem), do ano 2021. No âmbito social para que possamos fazer uma análise do contexto brasileiro de crise das instituições e da educação pública e privada. Neste projeto teremos a oportunidade de discutir e contribuir com informações e compreensões dos fenômenos recentes e as possibilidades de transformação social, para que gestores e lesgisladores tomem devidas ações com essas informações. 
+O projeto irá analisar dados do ENEM 2021, a fim de contribuir com as informações que possam viabilizar melhorias das políticas públicas para a educação nacional.
+
+Através de gráficos e relatórios, demonstrará indicadores geográficos e sociais, verificando se tais características refletem no desempenho dos participantes.
+
+Para o versionamento e documentação dos códigos serão utilizados o **Git** e **Github**.
+A análise inicial e limpeza dos dados originais será feita com o **Notebook Jupyter**. A integração e população da base de dados resultante será feita em Linguagem **Python** utilizando a **IDE VSCode**. E através de consultas **SQL**  serão gerados gráficos e dashboards utilizando o **Google Data Studio** conectado a um **Servidor Cloud**.
 
 <br>
 
