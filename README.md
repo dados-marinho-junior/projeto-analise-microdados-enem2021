@@ -9,12 +9,13 @@
 <br>
 
 ## 💼 Qual o objetivo do projeto?
-O projeto irá analisar dados do ENEM 2021, a fim de contribuir com as informações que possam viabilizar melhorias das políticas públicas para a educação nacional.
+O projeto deverá analisar dados do **ENEM 2021**, a fim de contribuir com informações que possam viabilizar melhorias das **políticas públicas** para a **educação nacional**.
 
-Através de gráficos e relatórios, demonstrará indicadores geográficos e sociais, verificando se tais características refletem no desempenho dos participantes.
+Através de gráficos e relatórios, deverá demonstrar indicadores **geográficos e sociais**, verificando se tais características refletem no desempenho dos participantes.
 
-Para desenvolvimento e gestão do projeto utilizaremos metodologias ágeis ( **Scrum** e **Kanban**). O versionamento e a documentação dos códigos serão utilizados no **Git** e **Github**. 
-A análise inicial e limpeza dos dados originais será feita com o **Notebook Jupyter**. A integração e população da base de dados resultante será feita em Linguagem **Python** utilizando a **IDE VSCode**. E através de consultas **SQL**  serão gerados gráficos e dashboards utilizando o **Google Data Studio** conectado a um **Servidor Cloud**.
+Para desenvolvimento e gestão do projeto deve-se utilizar metodologias ágeis ( **Scrum** e **Kanban**). Para o versionamento e a documentação dos códigos deverão ser utilizados o **Git** e **Github**. 
+A análise inicial e limpeza dos dados originais deverá ser feita com o **Notebook Jupyter**. A integração e população da base de dados resultante deverá ser utilizada Linguagem **Python** utilizando a **IDE VSCode**. Utilizar consultas em **SQL**. A apresentação dos dados deverá ser feita em dashboards gerados pelo o **Google Data Studio** conectado a uma base de dados permanente em **Cloud**.
+
 
 
 <br>
@@ -80,6 +81,7 @@ A análise inicial e limpeza dos dados originais será feita com o **Notebook Ju
   - [Pandas](https://pandas.pydata.org/docs/reference/)
   - [SQLite](https://www.sqlite.org/)
   - [Jupyter](https://jupyter.org/)
+  - [Heroku](https://www.heroku.com/)
   - [GitHub](https://github.com/)
   - [Plotly Python](https://plotly.com/python/)
   - [Markdown](https://www.markdownguide.org/)
