@@ -13,8 +13,9 @@ O projeto irá analisar dados do ENEM 2021, a fim de contribuir com as informaç
 
 Através de gráficos e relatórios, demonstrará indicadores geográficos e sociais, verificando se tais características refletem no desempenho dos participantes.
 
-Para o versionamento e documentação dos códigos serão utilizados o **Git** e **Github**.
+Para desenvolvimento e gestão do projeto utilizaremos metodologias ágeis ( **Scrum** e **Kanban**). O versionamento e a documentação dos códigos serão utilizados no **Git** e **Github**. 
 A análise inicial e limpeza dos dados originais será feita com o **Notebook Jupyter**. A integração e população da base de dados resultante será feita em Linguagem **Python** utilizando a **IDE VSCode**. E através de consultas **SQL**  serão gerados gráficos e dashboards utilizando o **Google Data Studio** conectado a um **Servidor Cloud**.
+
 
 <br>
 
