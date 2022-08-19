@@ -58,7 +58,7 @@ A análise inicial e limpeza dos dados originais será feita com o **Notebook Ju
 
 <br> 
 
-🔖 SPRINT 1 ([Link da Pasta](Sprint\Sprint01.md)):  Concluído ☑️ 
+🔖 SPRINT 1 [Link da Pasta](Sprint/Sprint01.md):  Concluído ☑️ 
 
 🔖 SPRINT 2 ([Link da Pasta](Sprint\Sprint02.md)):
 
