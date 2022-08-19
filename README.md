@@ -13,8 +13,9 @@ O projeto irá analisar dados do ENEM 2021, a fim de contribuir com as informaç
 
 Através de gráficos e relatórios, demonstrará indicadores geográficos e sociais, verificando se tais características refletem no desempenho dos participantes.
 
-Para o versionamento e documentação dos códigos serão utilizados o **Git** e **Github**.
+Para desenvolvimento e gestão do projeto utilizaremos metodologias ágeis ( **Scrum** e **Kanban**). O versionamento e a documentação dos códigos serão utilizados no **Git** e **Github**. 
 A análise inicial e limpeza dos dados originais será feita com o **Notebook Jupyter**. A integração e população da base de dados resultante será feita em Linguagem **Python** utilizando a **IDE VSCode**. E através de consultas **SQL**  serão gerados gráficos e dashboards utilizando o **Google Data Studio** conectado a um **Servidor Cloud**.
+
 
 <br>
 
@@ -46,7 +47,6 @@ A análise inicial e limpeza dos dados originais será feita com o **Notebook Ju
     <img src="https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white" height="25"/>
     <img src="https://img.shields.io/badge/jupyter-%23FA0F00.svg?style=for-the-badge&logo=jupyter&logoColor=white" height="25"/>
     <img src="https://img.shields.io/badge/Visual%20Studio%20Code-0078d7.svg?style=for-the-badge&logo=visual-studio-code&logoColor=white" height="25"/>
-    <img src="https://img.shields.io/badge/heroku-%23430098.svg?style=for-the-badge&logo=heroku&logoColor=white" height="25"/>
     <img src="https://img.shields.io/badge/pandas-%23150458.svg?style=for-the-badge&logo=pandas&logoColor=white" height="25"/>
     <img src="https://user-images.githubusercontent.com/104402499/184909582-e179abed-d8d3-4890-bd68-c9895636936d.png" height="15"/>
 
