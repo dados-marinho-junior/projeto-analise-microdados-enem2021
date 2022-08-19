@@ -8,7 +8,7 @@
 
 <br>
 
-## 💼 Qual o objetivo do repositório?
+## 💼 Qual o objetivo do projeto?
 O projeto irá analisar dados do ENEM 2021, a fim de contribuir com as informações que possam viabilizar melhorias das políticas públicas para a educação nacional.
 
 Através de gráficos e relatórios, demonstrará indicadores geográficos e sociais, verificando se tais características refletem no desempenho dos participantes.
