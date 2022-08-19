@@ -80,7 +80,6 @@ A análise inicial e limpeza dos dados originais será feita com o **Notebook Ju
   - [Pandas](https://pandas.pydata.org/docs/reference/)
   - [SQLite](https://www.sqlite.org/)
   - [Jupyter](https://jupyter.org/)
-  - [Heroku](https://www.heroku.com/)
   - [GitHub](https://github.com/)
   - [Plotly Python](https://plotly.com/python/)
   - [Markdown](https://www.markdownguide.org/)
