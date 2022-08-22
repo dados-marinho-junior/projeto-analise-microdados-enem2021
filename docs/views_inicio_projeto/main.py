@@ -1,7 +1,14 @@
-import sqlite3
-import pandas as pd
+import mysql.connector
+import pandas as pd 
+import random
 
-cnx = sqlite3.connect('projeto_enem21.sqlite3')
+
+cnx = mysql.connector.connect(
+    host = '3.89.36.150',
+    user = 'e2122g1',
+    password = 'e2122g1@16@ago',
+    database = 'e2122g1'
+    )
 cur = cnx.cursor()
 
 cur.execute("""
