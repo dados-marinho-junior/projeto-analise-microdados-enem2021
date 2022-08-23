@@ -17,3 +17,9 @@
 - Informação à equipe via Telegram destas alterações para amplo conhecimento;
 - Importante lição aprendida durante as tarefas do dia: após se fazer a eliminação de uma ou mais linhas do DF através do método drop(), é crucial aplicar o método reset_index() ao respectivo DF, pois os índices das linhas também são eliminados através do drop, o que fatalmente gera erro no caso de ser necessário o acesso àqueles índices que foram eliminados. Tal fato ocorreu por ocasião do cálculo das médias, resultando em erro quando o programa tentou acessar o índice de uma linha em particular que havia sido eliminada. O método reset_index() reorganiza os índices do DF, fazendo uma renumeração dos mesmos;
 - Atualização dos arquivos das sprints no repositório Github da equipe;
+
+##  Dia 19/08/2022
+- Atualização da história do usuário no repositório Github da equipe;
+
+## Continuação na Sprint 03
+([Sprint da semana 03](/Sprint/Sprint03.md))

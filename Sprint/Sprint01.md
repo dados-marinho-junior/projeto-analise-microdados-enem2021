@@ -26,5 +26,5 @@
 - Criado um diretório no Google Drive para compartilhamento de arquivos entre os membros da equipe - link de acesso em <https://drive.google.com/drive/u/1/folders/1eXWQ8HOOUxKgyQCPdjJovsSDCPuKIQSE>;
 - Drop de uma linha específica e única que continha diversas colunas com valores vazios - script TCC_II; 
 
-# Continuação na Sprint 02
-[Sprint da semana 02](Sprint02.md)
+## Continuação na Sprint 02
+([Sprint da semana 02](/Sprint/Sprint02.md))
