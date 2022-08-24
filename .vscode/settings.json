@@ -1,0 +1,18 @@
+{
+    "sqltools.connections": [
+        {},
+        {
+            "mysqlOptions": {
+                "authProtocol": "default"
+            },
+            "previewLimit": 50,
+            "server": "3.89.36.150",
+            "port": 3306,
+            "driver": "MySQL",
+            "name": "e2122g1",
+            "database": "e2122g1",
+            "username": "e2122g1",
+            "password": "e2122g1@16@ago"
+        }
+    ]
+}
