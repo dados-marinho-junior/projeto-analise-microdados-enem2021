@@ -14,7 +14,7 @@ O projeto deverá analisar dados do **ENEM 2021**, a fim de contribuir com infor
 Através de gráficos e relatórios, deverá demonstrar indicadores **geográficos e sociais**, verificando se tais características refletem no desempenho dos participantes.
 
 Para desenvolvimento e gestão do projeto deve-se utilizar metodologias ágeis ( **Scrum** e **Kanban**). Para o versionamento e a documentação dos códigos deverão ser utilizados o **Git** e **Github**. 
-A análise inicial e limpeza dos dados originais deverá ser feita com o **Notebook Jupyter**. A integração e população da base de dados resultante deverá ser utilizada Linguagem **Python** utilizando a **IDE VSCode**. Utilizar consultas em **SQL**. A apresentação dos dados deverá ser feita em dashboards gerados pelo o **Google Data Studio** conectado a uma base de dados permanente em **Cloud**.
+A análise inicial e limpeza dos dados originais deverá ser feita com o **Notebook Jupyter**. A integração e população da base de dados resultante deverá utilizar a Linguagem **Python** utilizando a **IDE VSCode**. Utilizar consultas em **SQL**. A apresentação dos dados deverá ser feita em dashboards gerados pelo o **Google Data Studio** conectado a uma base de dados permanente em **Cloud**.
 
 <br>
 
