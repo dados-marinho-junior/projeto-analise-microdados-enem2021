@@ -11,6 +11,6 @@
  
 
 ## Dia 30/08/2022
-- Daily scrum entre os integrantes da equipe e o professor orientador do projeto de conclusão de curso;
+- Daily scrum entre os integrantes da equipe e o professor orientador do projeto para alinhamento de ideias e orientações gerais sobre o projeto;
 - Atualização de documentação geral do projeto;
 - Adoção do Trello/Scrum/Kanban para melhor definição das tarefas e distribuição das atividades;
