@@ -48,7 +48,10 @@ A análise inicial e limpeza dos dados originais deverá ser feita com o **Noteb
 
 🔖 SPRINT 2 ([Link da Pasta](Sprint/Sprint02.md)):  Concluído ☑️
 
-🔖 SPRINT 3 ([Link da Pasta](Sprint/Sprint03.md)):
+🔖 SPRINT 3 ([Link da Pasta](Sprint/Sprint03.md)):  Concluído ☑️
+
+🔖 SPRINT 4 ([Link da Pasta](Sprint/Sprint04.md)):
+
 
 <br>
 
@@ -71,7 +74,7 @@ A análise inicial e limpeza dos dados originais deverá ser feita com o **Noteb
 
 O Banco de Dados deste projeto está integrado no sistema MySQL da Oracle Corporation.
 
-🔗 Acesse o código insert ao banco ([Link da Pasta](Projeto))
+🔗 Conexão ([Link da Pasta](Projeto/conexao_banco_compartilhado.py))
 
 <br>
 
