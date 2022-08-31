@@ -1,4 +1,4 @@
-ECHO  on 
+ECHO  off 
 
 git pull 
 git add .
