@@ -14,3 +14,11 @@
 - Daily scrum entre os integrantes da equipe e o professor orientador do projeto para alinhamento de ideias e orientações gerais sobre o projeto;
 - Atualização de documentação geral do projeto;
 - Adoção do Trello/Scrum/Kanban para melhor definição das tarefas e distribuição das atividades;
+
+## Dia 31/08/2022
+- Início dos trabalhos de análise das abstenções e médias por estados das edições do ENEM de 2017, 2018, 2019 e 2020, para possibilitar comparações com a edição de 2021, tema do nosso projeto. Neste dia, os trabalhos foram focados nos scripts para gerar os resultados;
+
+## Dia 01/09/2022
+- Daily scrum entre os integrantes da equipe;
+- Atualização de documentação geral do projeto;
+- Continuação dos trabalhos de análise das abstenções e médias por estados das edições do ENEM de 2017, 2018, 2019 e 2020. Neste dia, os trabalhos foram focados na correção de detalhes dos scripts e na execução, que demanda várias horas de processamento. Tarefa dividida entre os membros da equipe;
