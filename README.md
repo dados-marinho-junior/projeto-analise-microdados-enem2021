@@ -57,7 +57,7 @@ A análise inicial e limpeza dos dados originais deverá ser feita com o **Noteb
 
 ## 🌌 Acesse aos Docs e Views do projeto!
 
-🔗 DOCS ([Link da Pasta](docs/views_inicio_projeto))
+🔗 Docs/Views ([Link da Pasta](/docs/views_projeto/))
 
 <br>
 
