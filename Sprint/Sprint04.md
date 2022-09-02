@@ -22,3 +22,4 @@
 - Daily scrum entre os integrantes da equipe;
 - Atualização de documentação geral do projeto;
 - Continuação dos trabalhos de análise das abstenções e médias por estados das edições do ENEM de 2017, 2018, 2019 e 2020. Neste dia, os trabalhos foram focados na correção de detalhes dos scripts e na execução, que demanda várias horas de processamento. Tarefa dividida entre os membros da equipe;
+- Foi finalizado o a consulta sql **query.sql** onde fizemos toda a tradução das respostas pois a maioria dos campos de do tipo CHAR, utlizamos a documentação do enem para essa tradução com o recurso CASE no sql
