@@ -1,14 +1,15 @@
 '''
 Nesta parte fizemos a conexão do nosso arquivo CSV com o banco de dados compartilhado,
 Utilizando o rescurso do pandas Skiprows, para inputar 1000 dados por vez, 
+Transformando o dataframe em uma lista inserir o dados em lote
 
 '''
 
-
+# Bibliotecas Utilizadas
 import mysql.connector
 import pandas as pd
 
-
+# Conexão com Servidor
 cnx = mysql.connector.connect(
     # host='',
     # user='',
@@ -17,10 +18,11 @@ cnx = mysql.connector.connect(
 )
 cur = cnx.cursor()
 
+#Deleta a tabela se existir
 cur.execute("""
     DROP TABLE IF EXISTS NOVA_TB_ENEM; 
 """)
-
+#cria o Schema da tabela
 cur.execute("""
     CREATE TABLE NOVA_TB_ENEM (
         TB_ENEM_ID INTEGER PRIMARY KEY AUTO_INCREMENT,
@@ -56,7 +58,7 @@ cur.execute("""
      );
 """)
 
-
+# Criando o Data Frame chamando a função Conecta
 def conecta(valor):
     url_or_file = r'caminho_do_arquivo.csv'
     dados = pd.read_csv(url_or_file, sep=',',
@@ -64,7 +66,7 @@ def conecta(valor):
                         nrows=1000,
                         skiprows=range(1, valor)
                         )
-
+    # Transformando em lista
     values = []
     for index, row in dados.iterrows():
         TP_FAIXA_ETARIA = row.TP_FAIXA_ETARIA
@@ -127,7 +129,7 @@ def conecta(valor):
             Q025,
             MEDIA_ENEM))
     insert_values = "".join(str(values).strip('[]'))
-
+    #Inputando os valores
     sql = (f"""
         INSERT INTO NOVA_TB_ENEM(
             TP_FAIXA_ETARIA,
@@ -165,7 +167,7 @@ def conecta(valor):
     cur.execute(sql)
     cnx.commit()
 
-
+# Executando um laço na funçao Conecta
 for i in range(1, 2685052, 1000):
     conecta(i)
 cur.close()
