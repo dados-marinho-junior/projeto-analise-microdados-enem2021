@@ -118,20 +118,9 @@ END
   AS Estados,
   CASE
     WHEN SG_UF_PROVA IN ("AC", "AP", "AM", "PA", "RO", "RR", "TO") THEN "NORTE"
-    WHEN SG_UF_PROVA IN ("AL",
-    "BA",
-    "CE",
-    "MA",
-    "PB",
-    "PI",
-    "PE",
-    "RN",
-    "SE") THEN "NORDESTE"
+    WHEN SG_UF_PROVA IN ("AL","BA","CE","MA","PB","PI","PE","RN","SE") THEN "NORDESTE"
     WHEN SG_UF_PROVA IN ("DF", "GO", "MT", "MS") THEN "CENTRO-OESTE"
-    WHEN SG_UF_PROVA IN ("ES",
-    "MG",
-    "RJ",
-    "SP") THEN "SUDESTE"
+    WHEN SG_UF_PROVA IN ("ES","MG","RJ","SP") THEN "SUDESTE"
     WHEN SG_UF_PROVA IN ("PR", "RS", "SC") THEN "SUL"
 END
   AS Regioes,
