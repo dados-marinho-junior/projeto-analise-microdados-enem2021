@@ -191,14 +191,11 @@ END
     WHEN Q006 IN ("A") THEN "01. Nenhuma Renda."
     WHEN Q006 IN ("B") THEN "02. Até R$ 1.100,00"
     WHEN Q006 IN ("C", "D") THEN "03. De R$ 1.100,01 até R$ 2.200,00"
-    WHEN Q006 IN ("E",
-    "F") THEN "04. De R$ 2.200,01 até R$ 3.300,00"
+    WHEN Q006 IN ("E","F") THEN "04. De R$ 2.200,01 até R$ 3.300,00"
     WHEN Q006 IN ("G", "H") THEN "05. De R$ 3.300,01 até R$ 5.500,00"
-    WHEN Q006 IN ("I",
-    "J") THEN "06. De R$ 5.500,01 até R$ 7.700,00"
+    WHEN Q006 IN ("I","J") THEN "06. De R$ 5.500,01 até R$ 7.700,00"
     WHEN Q006 IN ("K", "L") THEN "07. De R$ 7.700,01 até R$ 9.900,00"
-    WHEN Q006 IN ("M",
-    "N") THEN "08. De R$ 9.900,01 até R$ 13.200,00"
+    WHEN Q006 IN ("M","N") THEN "08. De R$ 9.900,01 até R$ 13.200,00"
     WHEN Q006 IN ("O", "P") THEN "09. De R$ 13.200,01 até R$ 22.000,00"
     WHEN Q006 IN ("Q") THEN "10. Acima de R$ 22.000,00"
 END
