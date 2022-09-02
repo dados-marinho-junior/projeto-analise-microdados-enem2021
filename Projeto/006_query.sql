@@ -215,6 +215,4 @@ END
   AS Q25,
   MEDIA_ENEM AS Media_Enen
 FROM
-  `projeto-rafael-360600.projeto_enen.dados_enen`
-LIMIT
-  1000
+  `nome-do-projeto.conjunto_de_dados.tabela`

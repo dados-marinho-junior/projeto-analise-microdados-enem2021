@@ -44,7 +44,7 @@ job_config = bigquery.LoadJobConfig(
         bigquery.SchemaField("Q002", "STRING"),
         bigquery.SchemaField("Q003", "STRING"),
         bigquery.SchemaField("Q004", "STRING"),
-        bigquery.SchemaField("Q005", "STRING"),
+        bigquery.SchemaField("Q005", "INTEGER"),
         bigquery.SchemaField("Q006", "STRING"),
         bigquery.SchemaField("Q024", "STRING"),
         bigquery.SchemaField("Q025", "STRING"),
