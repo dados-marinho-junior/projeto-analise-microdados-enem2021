@@ -5,8 +5,12 @@
 {% block content %}
 
 {% csrf_token %}  
-{{ dados | highcharts }}
-<iframe width="100%" height="100%" src="https://datastudio.google.com/embed/reporting/111f37b4-b319-441e-b663-5e5ffa56c830/page/UPc0C" frameborder="0" style="border:0" allowfullscreen></iframe>
+{{ dados }}
+<iframe-foxy>
+
+	<iframe  src="https://datastudio.google.com/embed/reporting/44952e71-5338-4b37-a6b2-d0a797eab63d/page/j2g1C" frameborder="0" style="border:0" allowfullscreen></iframe>
+
+</iframe-foxy> 
 
 
 {% endblock %}
