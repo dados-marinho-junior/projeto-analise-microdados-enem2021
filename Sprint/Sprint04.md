@@ -1,6 +1,5 @@
 <h1 align="center"> Sprint Semana 04 </h1>
 
-# Anotem individualmente suas tarefas, tarefas em equipe e outros detalhes dos quais se lembrarem !
 
 # Semana de 29/08/2022 a 02/09/2022
 
