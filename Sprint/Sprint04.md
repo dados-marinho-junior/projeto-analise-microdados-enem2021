@@ -22,8 +22,11 @@
 - Daily scrum entre os integrantes da equipe;
 - Atualização de documentação geral do projeto;
 - Continuação dos trabalhos de análise das abstenções e médias por estados das edições do ENEM de 2017, 2018, 2019 e 2020. Neste dia, os trabalhos foram focados na correção de detalhes dos scripts e na execução, que demanda várias horas de processamento. Tarefa dividida entre os membros da equipe;
-- Foi finalizado o a consulta sql **query.sql** onde fizemos toda a tradução das respostas pois a maioria dos campos de do tipo CHAR, utlizamos a documentação do enem para essa tradução com o recurso CASE no sql
+- Foi finalizado o a consulta sql **query.sql** onde fizemos toda a tradução das respostas pois a maioria dos campos de do tipo CHAR, utlizamos a documentação do enem para essa tradução com o recurso CASE no sql;
+
+## Dia 02/09/2022
+- Daily scrum entre os integrantes da equipe;
+- Identificada alteração na versão do arquivo original de dados do ENEM 2021, motivando a nova execução das análises anteriormente feitas e geração da nova versão do arquivo que estava sendo tratado no projeto (Dados_Enem_2021.csv). Esta nova versão encontrada na página do INEP data de 10 ago. 2022;
 
 ## Dia 05/09/2022
-
 - Finalizado trabalho de obtenção de dados das abstenções e médias por estados das edições do ENEM de 2017, 2018, 2019 e 2020. Arquivo com os dados podem ser encontrado no google drive da equipe.
