@@ -44,37 +44,41 @@ A análise inicial e limpeza dos dados originais deverá ser feita com o **Noteb
 
 <br> 
 
-🔖 SPRINT 1 ([Link da Pasta](Sprint/Sprint01.md)):  Concluído ☑️ 
+🔖 SPRINT 1 ([Link da Pasta](/Sprint/Sprint01.md "Link Sprint01")):  Concluído ☑️ 
 
-🔖 SPRINT 2 ([Link da Pasta](Sprint/Sprint02.md)):  Concluído ☑️
+🔖 SPRINT 2 ([Link da Pasta](/Sprint/Sprint02.md "Link Sprint02")):  Concluído ☑️
 
-🔖 SPRINT 3 ([Link da Pasta](Sprint/Sprint03.md)):  Concluído ☑️
+🔖 SPRINT 3 ([Link da Pasta](/Sprint/Sprint03.md "Link Sprint03")):  Concluído ☑️
 
-🔖 SPRINT 4 ([Link da Pasta](Sprint/Sprint04.md)):
+🔖 SPRINT 4 ([Link da Pasta](/Sprint/Sprint04.md "Link Sprint04")):  Concluído ☑️
+
+🔖 SPRINT 5 ([Link da Pasta](/Sprint/Sprint05.md "Link Sprint05")):  
 
 
 <br>
 
 ## 🌌 Acesse aos Docs e Views do projeto!
 
-🔗 Docs/Views ([Link da Pasta](/docs/views_projeto/))
+🔗 Docs/Views ([Link da Pasta](/docs "Link Docs/Views"))
 
 <br>
 
- <h2 align="left">🚀 Dashboard está no ar </h2>
+ <h2 align="left">🚀Idealizando o Dashboard</h2>
 
    ![ezgif com-gif-maker (1)](https://user-images.githubusercontent.com/104402499/184792271-e6c9819b-c019-424e-8892-0171ff53eaf0.gif)
 
 
-[Dashboard](https://datastudio.google.com/reporting/478d4038-fa5a-40f3-8079-2f7959367add/page/tEnnC "Link")
+[Dashboard](https://datastudio.google.com/reporting/478d4038-fa5a-40f3-8079-2f7959367add/page/tEnnC "Link Dashboard")
 
 <br>
 
 ## ☁️ Banco de Dados na Nuvem
 
-O Banco de Dados deste projeto está integrado no sistema MySQL da Oracle Corporation.
+O Banco de Dados deste projeto está integrado no sistema MySQL da Oracle Corporation, Google Cloud Storage juntamente com Big Query.
 
-🔗 Conexão ([Link da Pasta](Projeto/conexao_banco_compartilhado.py))
+🔗 Conexão MySQL ([Link da Pasta](/Projeto/004_conexao_banco_dados.py "Link MySQL"))
+
+🔗 Conexão Google Cloud ([Link da Pasta](/Projeto/005_conexao_google_cloud_store.py "Link Google Cloud"))
 
 <br>
 

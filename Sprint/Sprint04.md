@@ -26,3 +26,5 @@
 ## Dia 02/09/2022
 - Daily scrum entre os integrantes da equipe;
 - Identificada alteração na versão do arquivo original de dados do ENEM 2021, motivando a nova execução das análises anteriormente feitas e geração da nova versão do arquivo que estava sendo tratado no projeto (Dados_Enem_2021.csv). Esta nova versão encontrada na página do INEP data de 10 ago. 2022;
+
+([Sprint da semana 05](/Sprint/Sprint05.md))
