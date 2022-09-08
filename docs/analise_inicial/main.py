@@ -1,7 +1,7 @@
 # Arquivo main.py
 
 # Esta versão executa toda a sua rotina internamente, com apenas 
-# um mínimo# de exibições ao usuário. 
+# um mínimo de exibições ao usuário. 
 # Para uma visualização com mais detalhes da execução do código, 
 # é possível executar a versão para o notebook Jupyter deste mesmo
 # script (main.ipynb).
