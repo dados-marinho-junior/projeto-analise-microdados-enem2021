@@ -18,4 +18,7 @@
 ## Dia 08/09/2022
 - Verificado que arquivo .gitignore havia sido removido do projeto, permitindo o upload do ambiente virtual no github. Foi criado novo arquivo .gitignore e removida a pasta venv do repositório github do projeto;
 - Reunião entre os membros da equipe para discussões e aprimoramento do dashbord no Google Data Studio;
-- 
+
+## Dia 09/09/2022
+- Criação da primeira versão do NSTALL.MD;
+- Reunião entre os membros da equipe durante a aula de Análise de Dados. Feitos em equipe alguns aprimoramentos nos códigos em Python de interface com a Google Cloud e Big Query de forma a criar a dinamização do processo do install. Realizados primeiros testes destes scripts com sucesso;
