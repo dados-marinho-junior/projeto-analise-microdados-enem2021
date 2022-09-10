@@ -14,3 +14,8 @@
 - Aperfeiçoamento dos códigos das primeiras análises iniciais com o arquivo de dados do ENEM 2021 (MICRODADOS_ENEM_2021.csv) e finalização das primeiras versões dos scripts main (main.py e main.ipynb). A versão main.ipynb é destinada a execução no notebook do Jupyter e é mais rica em detalhes visuais e impressões em tela que balizaram o desenvolvimento do código e primeiras análises;
 - Arquivos main foram carregados no repositório Google do projeto da turma em <https://drive.google.com/drive/u/1/folders/1KDZyz2h_34nkHKrbqSJbd4-uVIkcUrmc>;
 - Criação da pasta docs/analise_inicial no Github do nosso projeto, onde foram carregados os arquivos main das análises iniciais;
+
+## Dia 08/09/2022
+- Verificado que arquivo .gitignore havia sido removido do projeto, permitindo o upload do ambiente virtual no github. Foi criado novo arquivo .gitignore e removida a pasta venv do repositório github do projeto;
+- Reunião entre os membros da equipe para discussões e aprimoramento do dashbord no Google Data Studio;
+- 

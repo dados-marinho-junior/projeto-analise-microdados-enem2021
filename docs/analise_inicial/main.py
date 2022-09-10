@@ -10,9 +10,9 @@ import pandas as pd
 import numpy as np  # Usado para conversão de formato de dados com o método astype().
 
 url_or_file = 'MICRODADOS_ENEM_2021.csv'
-print('\nLeitura inicial do arquivo de dados do ENEM 2017 ...')
+print('\nLeitura inicial do arquivo de dados do ENEM 2021 ...')
 dados = pd.read_csv(url_or_file, sep = ';', encoding = 'ISO-8859-1')
-print('\nLeitura do arquivo de dados do ENEM 2017 concluída.')
+print('\nLeitura do arquivo de dados do ENEM 2021 concluída.')
 
 # Lista obtida a partir do método .columns:
 colunas = ['NU_INSCRICAO', 'NU_ANO', 'TP_FAIXA_ETARIA', 'TP_SEXO',
@@ -118,15 +118,5 @@ colunas = ['TP_FAIXA_ETARIA',
            'Q025',
            'MEDIA_ENEM']
 
-# Criação do novo Data Frame com a estrutura do arquivo csv a ser gerado 
-# para a análise do projeto:
+# Data Frame a ser criado e transportado:
 dados_enem = dados[colunas]
-
-try:
-    dados_enem.to_csv('Dados_Enem_2021.csv', sep=',', index = False)
-    # index = False não permite a criação de coluna com os índices, 
-    # que gera coluna 'Unnamed: 0' nos novos DFs derivados.
-    print('\nArquivo Dados_Enem_2021.csv criado com sucesso.')
-except:
-    print('\nErro na criação do arquivo .csv do projeto.')
-
