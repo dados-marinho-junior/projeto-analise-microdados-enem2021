@@ -1,6 +1,5 @@
 <h1 align="center"> Sprint Semana 05 </h1>
 
-# Anotem individualmente suas tarefas, tarefas em equipe e outros detalhes dos quais se lembrarem !
 
 ## Dia 05/09/2022
 - Finalizado trabalho de obtenção de dados das abstenções e médias por estados das edições do ENEM de 2017, 2018, 2019 e 2020. Arquivo com os dados pode ser encontrado no google drive da equipe;
@@ -20,5 +19,5 @@
 - Reunião entre os membros da equipe para discussões e aprimoramento do dashbord no Google Data Studio;
 
 ## Dia 09/09/2022
-- Criação da primeira versão do NSTALL.MD;
+- Criação da primeira versão do INSTALL.MD;
 - Reunião entre os membros da equipe durante a aula de Análise de Dados. Feitos em equipe alguns aprimoramentos nos códigos em Python de interface com a Google Cloud e Big Query de forma a criar a dinamização do processo do install. Realizados primeiros testes destes scripts com sucesso;
