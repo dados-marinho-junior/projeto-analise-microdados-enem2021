@@ -16,12 +16,10 @@ dataset_id = (projeto+'.'+conjunto_de_dados)
 try:
     #aqui confere se existe
     client.get_dataset(dataset_id) 
-    print
 except:
     #se não existe cria um novo
     dataset = client.create_dataset(conjunto_de_dados)
    
-
 else:
     # se existe,  somente carrega o dataset
     dataset = client.dataset(conjunto_de_dados)
@@ -86,6 +84,8 @@ print(
     )
 )
 #eliminada até aqui
+
+#AQUI ENTRA A PARTE DE SCHEMA DO DATAFRAME
 
 #aqui cria o view
 view_id = dataset.table(view)
