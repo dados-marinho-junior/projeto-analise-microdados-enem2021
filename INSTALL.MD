@@ -11,11 +11,11 @@
 
 4) na pasta projeto/settings.py inserir a informações solicitadas;
 
-5) Executar o script main.py, aquardar todo o processo
+5) Executar o script main.py, aguardar todo o processo;
 
 6) Nesta etapa do projeto ja terá o VIEWS montada, estão voce pode a SQL
-para qualquer seguimento como TABLEU, POWER BI entre outros. Nos utilizamos
-o DATA STUDIO para análize, voce pode copiar o modelo neste link
+para qualquer seguimento como **TABLEU, POWER BI** entre outros. Nos utilizamos
+o **DATA STUDIO** para análize, vôce pode copiar o modelo neste link
 <https://datastudio.google.com/reporting/c8a3e394-759a-4082-84d9-e7d59e22d525>
-Cliando no (⋮) e selecionar, Fazer uma Cópia referenciando sua fonte de dados do BIG QUERY
+Clicando no **( ⋮ )** e selecionar, Fazer uma Cópia referenciando sua fonte de dados do BIG QUERY.
  
