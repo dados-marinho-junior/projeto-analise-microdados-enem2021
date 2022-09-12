@@ -52,7 +52,9 @@ A análise inicial e limpeza dos dados originais deverá ser feita com o **Noteb
 
 🔖 SPRINT 4 ([Link da Pasta](/Sprint/Sprint04.md "Link Sprint04")):  Concluído ☑️
 
-🔖 SPRINT 5 ([Link da Pasta](/Sprint/Sprint05.md "Link Sprint05")):  
+🔖 SPRINT 5 ([Link da Pasta](/Sprint/Sprint05.md "Link Sprint05")):  Concluído ☑️
+
+🔖 SPRINT 6 ([Link da Pasta](/Sprint/Sprint06.md "Link Sprint06")):
 
 
 <br>
@@ -65,10 +67,10 @@ A análise inicial e limpeza dos dados originais deverá ser feita com o **Noteb
 
  <h2 align="left">🚀Idealizando o Dashboard</h2>
 
-   ![ezgif com-gif-maker (1)](https://user-images.githubusercontent.com/104402499/184792271-e6c9819b-c019-424e-8892-0171ff53eaf0.gif)
+   ![ezgif com-gif-maker](https://user-images.githubusercontent.com/104402499/189677860-68e47152-619c-48d4-a9cf-3d59b8e3d654.gif)
 
 
-[Dashboard](https://datastudio.google.com/reporting/478d4038-fa5a-40f3-8079-2f7959367add/page/tEnnC "Link Dashboard")
+[Dashboard](https://datastudio.google.com/reporting/c8a3e394-759a-4082-84d9-e7d59e22d525/page/66x1C "Link Dashboard")
 
 <br>
 
@@ -87,11 +89,14 @@ O Banco de Dados deste projeto está integrado no sistema MySQL da Oracle Corpor
     <img src="https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54" height="25"/>
     <img src="https://img.shields.io/badge/sqlite-%2307405e.svg?style=for-the-badge&logo=sqlite&logoColor=white" height="25"/>
     <img src="https://img.shields.io/badge/mysql-%2300f.svg?style=for-the-badge&logo=mysql&logoColor=white" height="25"/>
+    <img src="https://user-images.githubusercontent.com/104402499/188667674-8cfe3614-9fb1-415c-ae65-9ee992f67643.jpeg" height="26"/>
     <img src="https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white" height="25"/>
     <img src="https://img.shields.io/badge/jupyter-%23FA0F00.svg?style=for-the-badge&logo=jupyter&logoColor=white" height="25"/>
     <img src="https://img.shields.io/badge/Visual%20Studio%20Code-0078d7.svg?style=for-the-badge&logo=visual-studio-code&logoColor=white" height="25"/>
     <img src="https://img.shields.io/badge/pandas-%23150458.svg?style=for-the-badge&logo=pandas&logoColor=white" height="25"/>
-    <img src="https://user-images.githubusercontent.com/104402499/184909582-e179abed-d8d3-4890-bd68-c9895636936d.png" height="15"/>
+    <img src="https://user-images.githubusercontent.com/104402499/184909582-e179abed-d8d3-4890-bd68-c9895636936d.png" height="13"/>
+
+   
 
 <br>
 
