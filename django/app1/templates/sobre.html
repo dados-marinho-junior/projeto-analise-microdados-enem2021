@@ -1,0 +1,44 @@
+{% extends 'base.html' %}
+
+{% block title %}Lista de Tags{% endblock %}
+
+{% block content %}
+<div class="row">
+    <div class="col">
+                <h4 class="card-title text-center">Sobre o Projeto</h4>
+                <br>
+
+                    O projeto deverá analisar dados do <b>ENEM 2021</b>, a fim de contribuir com informações 
+                    que possam viabilizar melhorias das <b>políticas públicas</b> para a <b>educação nacional</b>.
+                    Através de gráficos e relatórios, deverá demonstrar indicadores <b>geográficos e sociais</b>, 
+                    verificando se tais características refletem no desempenho dos participantes.
+                    Para desenvolvimento e gestão do projeto deve-se utilizar metodologias ágeis 
+                    ( <b>Scrum</b> e <b>Kanban</b>). Para o versionamento e a documentação dos códigos deverão ser
+                    utilizados o <b>Git</b> e <b>Github</b>. 
+                    A análise inicial e limpeza dos dados originais deverá ser feita com o 
+                    <b>Notebook Jupyter</b>. A integração e população da base de dados resultante deverá 
+                    utilizar a Linguagem <b>Python</b> utilizando a <b>IDE VSCode</b>. 
+                    Utilizar consultas em <b>SQL</b>. 
+                    A apresentação dos dados deverá ser feita em dashboards gerados pelo o <b>Google Data Studio</b> 
+                    conectado a uma base de dados permanente em <b>Cloud</b>.
+
+                <br><br><br>
+                <h4 class="card-title text-center">Sobre os Desenvolvedores</h4>  
+                <ul>
+                    <br>
+                    <li> Diogo Lindemann </li>
+                    <li> Francisco de Assis </li>
+                    <li> Luana Naiara </li>
+                    <li> Marcelo Yukio Takahashi </li>
+                    <li> Rafael Rosso </li>
+                    <li> Sylvio Carneiro Junior </li>
+                    <br>
+                
+
+                    {% csrf_token %}  
+                    {{ dados }}
+
+    </div>
+</div>
+
+{% endblock %}

@@ -15,7 +15,7 @@ def index(request):
 @login_required
 def db1(request):
 
-    data = "Versao 0.01 - Dashboard 1 (um) "
+    data = "Versao 0.01 - Dashboard 1"
 
     return render(request, 'dashboard1.html', 
         { 'dados' : data } 
@@ -24,9 +24,39 @@ def db1(request):
 @login_required
 def db2(request):
 
-    data = "Versao 0.01 - Dashboard 2 (dois)"
+    data = "Versao 0.01 - Dashboard 2"
     
 
     return render(request, 'dashboard2.html', 
         { 'dados' : data } 
-    )        
+    )
+
+@login_required
+def db3(request):
+
+    data = "Versao 0.01 - Dashboard 3"
+    
+
+    return render(request, 'dashboard3.html', 
+        { 'dados' : data } 
+    )
+
+@login_required
+def db4(request):
+
+    data = "Versao 0.01 - Dashboard 4"
+    
+
+    return render(request, 'dashboard4.html', 
+        { 'dados' : data } 
+    )
+
+@login_required
+def about(request):
+
+    data = "Versao 0.01"
+    
+
+    return render(request, 'sobre.html', 
+        { 'dados' : data } 
+    )          
