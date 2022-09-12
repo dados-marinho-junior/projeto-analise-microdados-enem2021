@@ -9,9 +9,11 @@
 import pandas as pd
 import numpy as np  # Usado para conversão de formato de dados com o método astype().
 
-url_or_file = 'MICRODADOS_ENEM_2021.csv'
+# Informar na variável 'arquivo' o nome do arquivo ou caminho para o diretório em que o mesmo se encontra:
+arquivo = 'MICRODADOS_ENEM_2021.csv'
+
 print('\nLeitura inicial do arquivo de dados do ENEM 2021 ...')
-dados = pd.read_csv(url_or_file, sep = ';', encoding = 'ISO-8859-1')
+dados = pd.read_csv(arquivo, sep = ';', encoding = 'ISO-8859-1')
 print('\nLeitura do arquivo de dados do ENEM 2021 concluída.')
 
 # Lista obtida a partir do método .columns:
@@ -39,28 +41,9 @@ colunas_socioeconomicas = ['Q001', 'Q002', 'Q003', 'Q004', 'Q005',
                            'Q016', 'Q017', 'Q018', 'Q019', 'Q020', 
                            'Q021', 'Q022', 'Q023', 'Q024', 'Q025']
 
-# Obtenção e armazenamento dos índices de linhas para limpeza (drop):
-# Criação de um DF com valores vazios nas colunas de indicadores socioeconômicos já definidas:
-for coluna in colunas_socioeconomicas:
-    df = dados.loc[dados[coluna].isna(), coluna]
-
-# Lista que armazenará os índices das linhas para deleção (drop):
-lista_indices = []
-
-# Criado o DF das colunas com valores vazios, a próxima iteração captura e armazena em lista
-# os índices das linhas que serão eliminadas (drop):
-for i in range(len(df)):
-    indice = df.index[i]
-    lista_indices.append(indice)
-
-# Esta iteração elimina (drop) as linhas com vazios em alguma coluna de indicadores socioeconômicos:
 print('\nEliminando linhas com indicadores socioeconômicos vazios ...')
-for indice in lista_indices:
-    dados = dados.drop(indice, axis = 0)
-
-# Reorganização dos índices do DF inicial:
+dados.dropna(axis = 0, how = 'any', subset = colunas_socioeconomicas, inplace = True)
 dados = dados.reset_index()
-dados = dados.drop('index', axis = 1)
 
 # Criar uma nova coluna no DF para a média aritmética simples das 5 notas:
 dados['MEDIA_ENEM'] = 0.0
@@ -85,7 +68,9 @@ for coluna in colunas_notas:
     dados[coluna] = dados[coluna].fillna(0)
 
 # Cálculo e preenchimento das médias.
+print('\nCalculando a média de cada inscrito ...')
 dados['MEDIA_ENEM'] = dados.loc[:, ['NU_NOTA_CN', 'NU_NOTA_CH', 'NU_NOTA_LC', 'NU_NOTA_MT', 'NU_NOTA_REDACAO']].mean(axis = 1)
+print('\nMédias calculadas.')
 
 # Colunas que serão consideradas no projeto após definidas em reunião da equipe:
 colunas = ['TP_FAIXA_ETARIA', 
@@ -120,3 +105,4 @@ colunas = ['TP_FAIXA_ETARIA',
 
 # Data Frame a ser criado e transportado:
 dados_enem = dados[colunas]
+print('\nData Frame criado.')
