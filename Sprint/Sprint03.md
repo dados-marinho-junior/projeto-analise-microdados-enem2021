@@ -24,4 +24,5 @@
 - Daily scrum entre os integrantes da equipe e o professor orientador do projeto para alinhamento de ideias e orientações gerais sobre o projeto;
 - ...
 
+## Continuação na Sprint 04
 ([Sprint da semana 04](/Sprint/Sprint04.md))

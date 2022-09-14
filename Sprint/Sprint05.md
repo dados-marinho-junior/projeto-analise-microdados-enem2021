@@ -22,4 +22,5 @@
 - Criação da primeira versão do INSTALL.MD;
 - Reunião entre os membros da equipe durante a aula de Análise de Dados. Feitos em equipe alguns aprimoramentos nos códigos em Python de interface com a Google Cloud e Big Query de forma a criar a dinamização do processo do install. Realizados primeiros testes destes scripts com sucesso;
 
+## Continuação na Sprint 06
 ([Sprint da semana 06](/Sprint/Sprint06.md))
