@@ -52,6 +52,16 @@ def db4(request):
     )
 
 @login_required
+def hc(request):
+
+    data = "Versao 0.01"
+    
+
+    return render(request, 'highcharts.html', 
+        { 'dados' : data } 
+    )
+
+@login_required
 def about(request):
 
     data = "Versao 0.01"

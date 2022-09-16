@@ -8,5 +8,6 @@ urlpatterns = [
     path('db2', views.db2),
     path('db3', views.db3),
     path('db4', views.db4),
+    path('hc', views.hc),
     path('about', views.about)
 ]
