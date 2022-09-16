@@ -3,7 +3,7 @@ from django.contrib.auth.decorators import login_required
 # Create your views here.
 
 
-@login_required
+## @login_required
 def index(request):
 
     data = "Versao 0.01"
@@ -12,7 +12,7 @@ def index(request):
         { 'dados' : data } 
     )
 
-@login_required
+#@login_required
 def db1(request):
 
     data = "Versao 0.01"
@@ -21,7 +21,7 @@ def db1(request):
         { 'dados' : data } 
     )    
 
-@login_required
+#@login_required
 def db2(request):
 
     data = "Versao 0.01"
@@ -31,7 +31,7 @@ def db2(request):
         { 'dados' : data } 
     )
 
-@login_required
+#@login_required
 def db3(request):
 
     data = "Versao 0.01"
@@ -41,7 +41,7 @@ def db3(request):
         { 'dados' : data } 
     )
 
-@login_required
+#@login_required
 def db4(request):
 
     data = "Versao 0.01"
@@ -51,7 +51,7 @@ def db4(request):
         { 'dados' : data } 
     )
 
-@login_required
+#@login_required
 def hc(request):
 
     data = "Versao 0.01"
@@ -61,7 +61,7 @@ def hc(request):
         { 'dados' : data } 
     )
 
-@login_required
+#@login_required
 def about(request):
 
     data = "Versao 0.01"
