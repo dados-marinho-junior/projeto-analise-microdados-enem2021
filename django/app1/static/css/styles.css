@@ -1,5 +1,16 @@
+body {
+
+    font-family: 'Montserrat', sans-serif !important;
+    background-color: #f5f5f5;
+}
+.texto{
+    text-align: justify;
+    line-height: 31px;
+}
+
 .container-fluid {
     padding: 0;
+    
 }
 
 .container-fluid .row {
@@ -8,22 +19,86 @@
 
 /* Navbar */
 
-.navbar  {
-    border-bottom: 1px solid #333;
-    margin-bottom: 20px;
+
+
+.navbar-light .navbar-nav .nav-link:focus,
+.navbar-light .navbar-nav .nav-link:hover {
+    color: #fff;
 }
+
+.navbar {
+    border-bottom: 1px solid #333;
+    margin-bottom: 80px;
+    padding: 0px 15px;
+    background-color: #202124 !important;
+}
+
+
 
 .navbar-nav {
     margin: auto;
 }
 
-.navbar-brand {
-    font-weight: bold;
+.navbar-brand img {
+    width: 250px;
 }
 
+.navbar-nav .nav-item {
+    margin: 20px 4px;
+}
+
+
+
+
 .navbar-light .navbar-nav a.nav-link {
-    color: #333;
-    letter-spacing: 1px;
+    color: rgb(255, 255, 255);
+    border: 0.1px #34383a solid;
+    border-radius: 4px;
+    box-shadow: 1px 1px 2px #131212;
+    background: #2c2f38;
+    font-weight: 300;
+    font-size: 14px;
+    transition: all .5s ease;
+    letter-spacing: 0.3px;
+    padding: 14px 25px;
+}
+
+.navbar-nav .nav-item a.nav-link:hover {
+    background-color: #28a791;
+}
+
+.navbar-nav .nav-item a.nav-link:hover {
+    background-color: #28a791;
+}
+.navbar-nav .nav-item a.logout:hover {
+    background-color: #3c398a;
+}
+.bloco{
+    text-align: right;
+}
+
+.bloco button {
+    display: inline-block;
+    color: #fff;
+    font-size: 14px;
+    text-transform: uppercase;
+    font-weight: 400;
+    padding: 20px;
+    background: #28a791;
+    border: none;
+    transition: all .5s ease;
+    min-width: 220px;
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: 20px;
+}
+.bloco button:hover {
+    background: #3c398a;
+}
+
+.bloco button:focus {
+    outline: none !important;
+    
 }
 
 /* dashboard */
@@ -143,7 +218,7 @@
 
 .task-item.done {
     background-color: #CCC;
-}  
+}
 
 .fas.fa-trash {
     color: #db1e47;
@@ -175,16 +250,25 @@
 
 /* Rodapé */
 footer {
-    background-color: #333;
-    height: 300px;
+    background-color: #202124;
+    height: 80px;
     border-top: 2px solid #202020;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    left: 0;
+    right: 0;
+    z-index: 1000;
+    width: 100%;
 }
 
 footer p {
     color: #f5f5f5;
     text-align: center;
-    top: 50%;
     position: relative;
+    margin-bottom: 0;
 }
 
 /* Messages */
@@ -226,7 +310,7 @@ ul.messages li {
 
 iframe-foxy {
     position: relative;
-    padding-bottom: 170%;
+    padding-bottom: 93%;
     height: 0;
     z-index: 2;
     max-width: 100%;
@@ -235,6 +319,7 @@ iframe-foxy {
     justify-content: center;
     align-items: center;
     height: auto;
+    margin-bottom: 80px;
 }
 
 iframe-foxy iframe {
@@ -243,4 +328,32 @@ iframe-foxy iframe {
     left: 0;
     width: 100%;
     height: 100%;
+}
+
+@media (max-width: 1200px){
+.navbar-expand-lg {
+    
+    flex-flow: column;
+  
+}
+}
+@media (max-width: 992px) {
+    
+    .navbar-expand-lg {
+       
+        flex-flow: row nowrap;
+      
+    }
+    
+    .navbar-collapse {
+        text-align: center;
+        max-height: none;
+        position: absolute;
+        width: 100%;
+        left: 0px;
+        background: rgb(32 33 36);
+        overflow: hidden !important;
+        z-index: 1000;
+        top: 41px;
+    }
 }

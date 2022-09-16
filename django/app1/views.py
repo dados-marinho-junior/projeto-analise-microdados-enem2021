@@ -6,7 +6,7 @@ from django.contrib.auth.decorators import login_required
 @login_required
 def index(request):
 
-    data = "Versao 0.01 - apresentação"
+    data = "Versao 0.01"
 
     return render(request, 'index.html', 
         { 'dados' : data } 
@@ -15,7 +15,7 @@ def index(request):
 @login_required
 def db1(request):
 
-    data = "Versao 0.01 - Dashboard 1"
+    data = "Versao 0.01"
 
     return render(request, 'dashboard1.html', 
         { 'dados' : data } 
@@ -24,7 +24,7 @@ def db1(request):
 @login_required
 def db2(request):
 
-    data = "Versao 0.01 - Dashboard 2"
+    data = "Versao 0.01"
     
 
     return render(request, 'dashboard2.html', 
@@ -34,7 +34,7 @@ def db2(request):
 @login_required
 def db3(request):
 
-    data = "Versao 0.01 - Dashboard 3"
+    data = "Versao 0.01"
     
 
     return render(request, 'dashboard3.html', 
@@ -44,7 +44,7 @@ def db3(request):
 @login_required
 def db4(request):
 
-    data = "Versao 0.01 - Dashboard 4"
+    data = "Versao 0.01"
     
 
     return render(request, 'dashboard4.html', 

@@ -4,13 +4,29 @@
 
 {% block content %}
 
-{% csrf_token %}  
-{{ dados }}
+{% csrf_token %}
+<div class="bloco">
+	<h4 class="card-title text-center">Home-Apresentação</h4>
+	{% csrf_token %}
+
+
+	<p class="texto">
+		Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque ut diam porttitor, porttitor mauris et,
+		interdum mi. Pellentesque vulputate bibendum purus, et dignissim sem maximus sit amet. Ut feugiat est a
+		cursus imperdiet. Donec sollicitudin feugiat eros, eget faucibus elit viverra sit amet. Etiam vestibulum,
+		nunc ut tempor condimentum, risus augue tristique leo, eget dictum sem magna sit amet ligula. Vestibulum
+		vehicula libero in odio scelerisque efficitur.
+	</p>
+	<button onclick="var ifr=document.getElementsByName('Reload')[0]; ifr.src=ifr.src;">Redefinir Gráficos</button>
+</div>
+
 <iframe-foxy>
 
-	<iframe  src="https://datastudio.google.com/embed/reporting/c8a3e394-759a-4082-84d9-e7d59e22d525/page/p_891u3t7gyc" frameborder="0" style="border:0" allowfullscreen></iframe>
+	<iframe name="Reload"
+		src="https://datastudio.google.com/embed/reporting/c8a3e394-759a-4082-84d9-e7d59e22d525/page/p_891u3t7gyc"
+		frameborder="0" style="border:0" allowfullscreen></iframe>
 
-</iframe-foxy> 
+</iframe-foxy>
 
 
 {% endblock %}
