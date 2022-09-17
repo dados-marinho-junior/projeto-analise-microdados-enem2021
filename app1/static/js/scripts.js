@@ -29,3 +29,11 @@ $( document ).ready(function() {
     });
 
 });
+
+ 
+
+var href = window.location.pathname;
+
+if( $(".navbar-nav a[href='"+href+"']").length ) {
+    $(".navbar-nav a[href='"+href+"']").parent('li').addClass('active');
+}

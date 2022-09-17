@@ -4,65 +4,66 @@
 
 {% block content %}
 
-{% csrf_token %}  
+{% csrf_token %}
 
 <div class="bloco">
-	<h4 class="card-title text-center">Home-Apresentação</h4>
-	{% csrf_token %}
+  <h4 class="card-title text-center">Home-Apresentação</h4>
+  {% csrf_token %}
 
-	<p class="texto">
-		Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque ut diam porttitor, porttitor mauris et,
-		interdum mi. Pellentesque vulputate bibendum purus, et dignissim sem maximus sit amet. Ut feugiat est a
-		cursus imperdiet. Donec sollicitudin feugiat eros, eget faucibus elit viverra sit amet. Etiam vestibulum,
-		nunc ut tempor condimentum, risus augue tristique leo, eget dictum sem magna sit amet ligula. Vestibulum
-		vehicula libero in odio scelerisque efficitur.
-	</p>
-	<button onclick="var ifr=document.getElementsByName('Reload')[0]; ifr.src=ifr.src;">Redefinir Gráficos</button>
+  <p class="texto">
+    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque ut diam porttitor, porttitor mauris et,
+    interdum mi. Pellentesque vulputate bibendum purus, et dignissim sem maximus sit amet. Ut feugiat est a
+    cursus imperdiet. Donec sollicitudin feugiat eros, eget faucibus elit viverra sit amet. Etiam vestibulum,
+    nunc ut tempor condimentum, risus augue tristique leo, eget dictum sem magna sit amet ligula. Vestibulum
+    vehicula libero in odio scelerisque efficitur.
+  </p>
 </div>
 
 
 <div>
-  
-<iframe-foxy>
-<!-- partial:index.partial.html -->
-<script src="https://code.highcharts.com/highcharts.js"></script>
-<script src="https://code.highcharts.com/modules/series-label.js"></script>
-<script src="https://code.highcharts.com/modules/exporting.js"></script>
-<script src="https://code.highcharts.com/modules/export-data.js"></script>
-<script src="https://code.highcharts.com/modules/accessibility.js"></script>
+
+  <!-- partial:index.partial.html -->
+  <script src="https://code.highcharts.com/highcharts.js"></script>
+  <script src="https://code.highcharts.com/modules/series-label.js"></script>
+  <script src="https://code.highcharts.com/modules/exporting.js"></script>
+  <script src="https://code.highcharts.com/modules/export-data.js"></script>
+  <script src="https://code.highcharts.com/modules/accessibility.js"></script>
 
 
-<figure class="highcharts-figure">
-  <div id="container"></div>
-  <p class="highcharts-description">
-  Observamos uma diminuição gradativa do número de inscritos,  
-  participantes e das faltas de 2017 até 2019. Em 2020 com o cenário 
-  de pandemia, o número de inscritos voltou a crescer, contudo o 
-  número de faltantes foi equivalente à 55,3% do total, a maior 
-  abstenção de toda a história do Enem. Em 2021 houve o menor 
-  número de inscrições desde de 2017, porém os faltante 
-  representam apenas 33,9% dos inscritos.  
-  </p>
-</figure>
+  <figure class="highcharts-figure">
+    <div id="container"></div>
+    <p class="highcharts-description">
+      Observamos uma diminuição gradativa do número de inscritos,
+      participantes e das faltas de 2017 até 2019. Em 2020 com o cenário
+      de pandemia, o número de inscritos voltou a crescer, contudo o
+      número de faltantes foi equivalente à 55,3% do total, a maior
+      abstenção de toda a história do Enem. Em 2021 houve o menor
+      número de inscrições desde de 2017, porém os faltante
+      representam apenas 33,9% dos inscritos.
+    </p>
+  </figure>
 
 
 
-<figure class="highcharts-figure">
-  <div id="container2"></div>
-  <p class="highcharts-description">
-  No gráfico das médias percebemos o impacto da análise exploratória 
-  e a escolha do dado a ser trabalho e apresentado. 
-  As médias apresentam desequilíbrio em todos os anos, quando usamos 
-  o número de participantes ou inscritos como métrica. 
-  Em 2020 observamos um aumento da Média x Participantes em 280,
-  78 pontos se comparada a  de Média x Inscritos.
-  </p>
-</figure>
+  <figure class="highcharts-figure">
+    <div id="container2"></div>
+    <p class="highcharts-description">
+      No gráfico das médias percebemos o impacto da análise exploratória
+      e a escolha do dado a ser trabalho e apresentado.
+      As médias apresentam desequilíbrio em todos os anos, quando usamos
+      o número de participantes ou inscritos como métrica.
+      Em 2020 observamos um aumento da Média x Participantes em 280,
+      78 pontos se comparada a de Média x Inscritos.
+    </p>
+  </figure>
 
-<!-- partial -->
-  <script  src="\static\js\script.js"></script>
+  <!-- partial -->
 
-</iframe-foxy>
+
+
 </div>
+<script src="\static\js\script.js"></script>
+
+
 
 {% endblock %}

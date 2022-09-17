@@ -2,7 +2,7 @@
 
 Highcharts.chart('container', {
     title: {
-      text: 'Frequencia de alunos de 2017 a 2021',
+      text: 'Frequência de alunos de 2017 a 2021',
       align: 'left'
     },
     xAxis: {
