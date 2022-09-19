@@ -7,12 +7,6 @@ version = "Versão 0.03"
 # @login_required
 
 
-<<<<<<< HEAD
-from models import TagDis
-
-## @login_required
-=======
->>>>>>> 3893dd4c59163213aa6b3f28d818c5f9195242c0
 def index(request):
 
     data = version
