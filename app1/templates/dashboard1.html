@@ -17,13 +17,21 @@
 		nunc ut tempor condimentum, risus augue tristique leo, eget dictum sem magna sit amet ligula. Vestibulum
 		vehicula libero in odio scelerisque efficitur.
 	</p>
-	<button onclick="var ifr=document.getElementsByName('Reload')[0]; ifr.src=ifr.src;">Redefinir Gráficos</button>
+	<button class="desktop" onclick="var ifr=document.getElementsByName('Reload')[0]; ifr.src=ifr.src;">Redefinir
+		Gráficos</button>
+	<button class="mobile" onclick="var ifr=document.getElementsByName('Reload2')[0]; ifr.src=ifr.src;">Redefinir
+		Gráficos</button>
+
 </div>
 
-<iframe-foxy>
+<iframe-foxy class="db1">
 
-	<iframe name="Reload"
+	<iframe name="Reload" class="desktop"
 		src="https://datastudio.google.com/embed/reporting/c8a3e394-759a-4082-84d9-e7d59e22d525/page/66x1C"
+		frameborder="0" style="border:0" allowfullscreen></iframe>
+
+	<iframe name="Reload2" class="mobile"
+		src="https://datastudio.google.com/embed/reporting/0a87a191-2e68-49b5-a7cc-7f19fa3b0f68/page/66x1C"
 		frameborder="0" style="border:0" allowfullscreen></iframe>
 
 </iframe-foxy>

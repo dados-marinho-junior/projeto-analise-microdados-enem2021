@@ -2,58 +2,72 @@ from django.shortcuts import render
 from django.contrib.auth.decorators import login_required
 # Create your views here.
 
+#Controle de versão
+version = "Versão 0.03"
+# @login_required
 
+
+<<<<<<< HEAD
 from models import TagDis
 
 ## @login_required
+=======
+>>>>>>> 3893dd4c59163213aa6b3f28d818c5f9195242c0
 def index(request):
 
-    data = "Versao 0.01"
+    data = version
 
-    return render(request, 'index.html', 
-        { 'dados' : data } 
-    )
+    return render(request, 'index.html',
+                  {'dados': data}
+                  )
 
-#@login_required
+# @login_required
+
+
 def db1(request):
 
-    data = "Versao 0.01"
+    data = version
 
-    return render(request, 'dashboard1.html', 
-        { 'dados' : data } 
-    )    
+    return render(request, 'dashboard1.html',
+                  {'dados': data}
+                  )
 
-#@login_required
+# @login_required
+
+
 def db2(request):
 
-    data = "Versao 0.01"
-    
+    data = version
 
-    return render(request, 'dashboard2.html', 
-        { 'dados' : data } 
-    )
+    return render(request, 'dashboard2.html',
+                  {'dados': data}
+                  )
 
-#@login_required
+# @login_required
+
+
 def db3(request):
 
-    data = "Versao 0.01"
-    
+    data = version
 
-    return render(request, 'dashboard3.html', 
-        { 'dados' : data } 
-    )
+    return render(request, 'dashboard3.html',
+                  {'dados': data}
+                  )
 
-#@login_required
+# @login_required
+
+
 def db4(request):
 
-    data = "Versao 0.01"
-    
+    data = version
 
-    return render(request, 'dashboard4.html', 
-        { 'dados' : data } 
-    )
+    return render(request, 'dashboard4.html',
+                  {'dados': data}
+                  )
 
-#@login_required
+# @login_required
+
+
 def hc(request):
 
     data = "Versao 0.01"
@@ -79,12 +93,10 @@ def hc(request):
         { 'dados' : data, 'tagdis' : tagdis_json } 
     )
 
-#@login_required
 def about(request):
 
-    data = "Versao 0.01"
-    
+    data = version
 
-    return render(request, 'sobre.html', 
-        { 'dados' : data } 
-    )          
+    return render(request, 'sobre.html',
+                  {'dados': data}
+                  )
