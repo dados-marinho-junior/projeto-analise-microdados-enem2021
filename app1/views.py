@@ -3,6 +3,8 @@ from django.contrib.auth.decorators import login_required
 # Create your views here.
 
 
+from models import TagDis
+
 ## @login_required
 def index(request):
 
@@ -56,9 +58,25 @@ def hc(request):
 
     data = "Versao 0.01"
     
+    tagdis = TagDis.objects.all()
+
+    import json
+    tagdis_json = json.dumps(tagdis)
+
+
+#     SELECT 
+# DATA AS Ano,
+# SUM(INSCRITOS) AS Inscritos,
+# SUM(PARTICIPANTES) AS Participantes,
+# SUM(FALTANTES) AS Faltas,
+# ROUND(AVG(MEDIA_GERAL),2 ) AS Media_Inscritos,
+# ROUND(AVG(MEDIA),2 ) AS Media_Participantes,
+# FROM 'base aqui' 
+# GROUP BY DATA ORDER BY DATA ASC
+
 
     return render(request, 'highcharts.html', 
-        { 'dados' : data } 
+        { 'dados' : data, 'tagdis' : tagdis_json } 
     )
 
 #@login_required
