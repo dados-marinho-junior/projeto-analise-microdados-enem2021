@@ -64,7 +64,18 @@ def db4(request):
 
 def hc(request):
 
-    data = "Versao 0.01"
+    data = "Versao 0.0.2"
+    
+
+    return render(request, 'highcharts.html', 
+        { 'dados' : data } 
+    )
+
+
+
+#def hc(request):
+
+ #   data = "Versao 0.01"
     
     #tagdis = TagDis.objects.all()
 
