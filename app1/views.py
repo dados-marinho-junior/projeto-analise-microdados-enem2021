@@ -68,7 +68,7 @@ def hc(request):
     
     #tagdis = TagDis.objects.all()
 
-    import json
+    #import json
     #tagdis_json = json.dumps(tagdis)
 
 
@@ -83,9 +83,9 @@ def hc(request):
 # GROUP BY DATA ORDER BY DATA ASC
 
 
-    return render(request, 'highcharts.html', 
-        { 'dados' : data, 'tagdis' : tagdis_json } 
-    )
+    #return render(request, 'highcharts.html', 
+       # { 'dados' : data, 'tagdis' : tagdis_json } 
+    #)
 
 def about(request):
 
