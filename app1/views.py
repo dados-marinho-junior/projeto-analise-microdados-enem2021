@@ -66,10 +66,10 @@ def hc(request):
 
     data = "Versao 0.01"
     
-    tagdis = TagDis.objects.all()
+    #tagdis = TagDis.objects.all()
 
     import json
-    tagdis_json = json.dumps(tagdis)
+    #tagdis_json = json.dumps(tagdis)
 
 
 #     SELECT 
