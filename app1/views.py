@@ -3,7 +3,7 @@ from django.contrib.auth.decorators import login_required
 # Create your views here.
 
 #Controle de versão
-version = "Versão 0.03"
+version = "Versão 1.0.1"
 # @login_required
 
 
@@ -64,7 +64,7 @@ def db4(request):
 
 def hc(request):
 
-    data = "Versao 0.0.2"
+    data = version
     
 
     return render(request, 'highcharts.html', 

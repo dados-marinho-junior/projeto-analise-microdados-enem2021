@@ -6,15 +6,22 @@
 
 {% csrf_token %}
 <div class="bloco">
-	<h4 class="card-title text-center">Home-Apresentação</h4>
+	<h4 class="card-title text-center">Dasboard 3</h4>
 	{% csrf_token %}
 
 	<p class="texto">
-		Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque ut diam porttitor, porttitor mauris et,
-		interdum mi. Pellentesque vulputate bibendum purus, et dignissim sem maximus sit amet. Ut feugiat est a
-		cursus imperdiet. Donec sollicitudin feugiat eros, eget faucibus elit viverra sit amet. Etiam vestibulum,
-		nunc ut tempor condimentum, risus augue tristique leo, eget dictum sem magna sit amet ligula. Vestibulum
-		vehicula libero in odio scelerisque efficitur.
+		Este dashboard permite uma visualização gráfica e numérica dos indicadores socioeconômicos dos inscritos,
+		conforme os filtros aplicados. Os parâmetros mais relevantes referem-se à renda familiar e nível de escolaridade
+		dos pais ou responsáveis pelos candidatos. Aqui também é possível uma visualização numérica em um painel dos
+		dados referentes ao quantitativo de candidatos inscritos, de participantes efetivos (que compareceram pelo menos
+		em um dos dias de provas), dos faltantes nos dois dias de avaliações e daqueles declarados como estudantes e
+		treineiros. Por fim, é possível uma leitura da média geral e da maior e menor média do grupo definido de acordo
+		com as seleções escolhidas nos filtros.
+		</p>
+		<p class="texto m-bottom">	
+		Observe que é possível alternar entre ordem crescente ou decrescente com o clique do mouse nos rótulos de
+		colunas onde essa alternância é aplicável.
+
 	</p>
 	<button class="desktop" onclick="var ifr=document.getElementsByName('Reload')[0]; ifr.src=ifr.src;">Redefinir
 		Gráficos</button>
@@ -22,7 +29,7 @@
 		Gráficos</button>
 </div>
 
-<iframe-foxy class="db3">
+<iframe-foxy class="resize">
 
 	<iframe name="Reload" class="desktop"
 		src="https://datastudio.google.com/embed/reporting/c8a3e394-759a-4082-84d9-e7d59e22d525/page/p_x3ipyh6gyc"
@@ -30,7 +37,7 @@
 	<iframe name="Reload2" class="mobile"
 		src="https://datastudio.google.com/embed/reporting/0a87a191-2e68-49b5-a7cc-7f19fa3b0f68/page/p_x3ipyh6gyc"
 		frameborder="0" style="border:0" allowfullscreen></iframe>
-
+	<div class="mask"></div>
 </iframe-foxy>
 
 {% endblock %}

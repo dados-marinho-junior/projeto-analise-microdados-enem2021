@@ -6,16 +6,28 @@
 
 {% csrf_token %}
 <div class="bloco">
-	<h4 class="card-title text-center">Home-Apresentação</h4>
+	<h4 class="card-title text-center">Dasboard 2</h4>
 	{% csrf_token %}
 
 
 	<p class="texto">
-		Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque ut diam porttitor, porttitor mauris et,
-		interdum mi. Pellentesque vulputate bibendum purus, et dignissim sem maximus sit amet. Ut feugiat est a
-		cursus imperdiet. Donec sollicitudin feugiat eros, eget faucibus elit viverra sit amet. Etiam vestibulum,
-		nunc ut tempor condimentum, risus augue tristique leo, eget dictum sem magna sit amet ligula. Vestibulum
-		vehicula libero in odio scelerisque efficitur.
+		Este dashboard permite uma visualização gráfica e numérica distribuída por região geográfica, conforme os
+		filtros aplicados, de dados referentes ao quantitativo de inscritos, média geral e média em cada prova.
+		Adicionalmente, é possível uma visualização gráfica em colunas das médias em cada prova conforme a Unidade da
+		Federação e de acordo com as seleções escolhidas nos filtros. Use o cursor do mouse sobre os elementos gráficos
+		para destacar uma informação.
+	</p>
+	<p class="texto">
+		O painel referente ao Local do Exame, no canto inferior direito do dashboard, permite uma visualização do local
+		de exame, UF, média geral e quantidade de inscritos, sendo munido de uma barra de rolagem vertical, ativada ao
+		se posicionar o cursor do mouse sobre o referido painel. Observe que é possível alternar entre ordem crescente
+		ou decrescente com o clique do mouse nos rótulos de colunas onde essa alternância é aplicável.
+	</p>
+	<p class="texto -m-bottom">
+		No canto inferior esquerdo, os mapas revelam dados dos quantitativos de inscritos e média geral por Unidade da
+		Federação ao se posicionar o cursor sobre a representação geográfica de cada ente federativo. Estes dados
+		resultantes também são sensíveis aos filtros aplicados no menu suspenso no topo da página.
+
 	</p>
 	<button class="desktop" onclick="var ifr=document.getElementsByName('Reload')[0]; ifr.src=ifr.src;">Redefinir
 		Gráficos</button>
@@ -23,7 +35,7 @@
 		Gráficos</button>
 </div>
 
-<iframe-foxy class="db2">
+<iframe-foxy class="resize">
 
 	<iframe name="Reload" class="desktop"
 		src="https://datastudio.google.com/embed/reporting/c8a3e394-759a-4082-84d9-e7d59e22d525/page/p_891u3t7gyc"
@@ -32,7 +44,7 @@
 	<iframe name="Reload2" class="mobile"
 		src="https://datastudio.google.com/embed/reporting/0a87a191-2e68-49b5-a7cc-7f19fa3b0f68/page/p_891u3t7gyc"
 		frameborder="0" style="border:0" allowfullscreen></iframe>
-
+	<div class="mask"></div>
 </iframe-foxy>
 
 

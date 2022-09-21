@@ -7,22 +7,31 @@
 {% csrf_token %}
 
 <div class="bloco">
-	<h4 class="card-title text-center">Home-Apresentação</h4>
-	{% csrf_token %}
+  <h4 class="card-title text-center">HighCharts</h4>
+  {% csrf_token %}
 
-	<p class="texto">
+  <p class="texto">
 
+    Os gráficos desta página nos foram propostos como um desafio adicional no nosso projeto com a incorporação da
+    biblioteca de gráficos Highcharts. Seu emprego foi ao encontro de curiosidades que foram surgindo no decorrer de
+    nosso projeto, tais como:
+  </p>
+  <ul>
+    <li>Quais os índices de abstenção do Enem nos últimos anos ?</li>
+    <li>  Qual foi o índice de abstenção em 2020, em pleno período de pandemia de Covid 19?</li>
+  <li>  É possível se verificar alguma tendência de aumento ou queda nos índices de participação ou abstenção no Enem nas
+    últimas edições?</li>
+  <li>  Qual é o impacto nas médias ocasionado pelas abstenções totais? E como são impactadas as médias em se considerando
+    apenas os participantes efetivos?</li>
+  </ul>
+  <p class="texto">
+    Para sanar estas dúvidas e atender ao desafio proposto à equipe, foi feito um levantamento dos índices globais de
+    participação e abstenção nas edições do Enem de 2017 a 2021, juntamente com as médias gerais, adotando-se o mesmo
+    critério de 2021 aos anos anteriores. Algumas conclusões são relatadas a seguir e podem ser observadas nos gráficos
+    criados com Highcharts:
 
-    <p> {{ tagids_json }} <p> 
+  </p>
 
-
-		Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque ut diam porttitor, porttitor mauris et,
-		interdum mi. Pellentesque vulputate bibendum purus, et dignissim sem maximus sit amet. Ut feugiat est a
-		cursus imperdiet. Donec sollicitudin feugiat eros, eget faucibus elit viverra sit amet. Etiam vestibulum,
-		nunc ut tempor condimentum, risus augue tristique leo, eget dictum sem magna sit amet ligula. Vestibulum
-		vehicula libero in odio scelerisque efficitur.
-	</p>
-	<button onclick="var ifr=document.getElementsByName('Reload')[0]; ifr.src=ifr.src;">Redefinir Gráficos</button>
 </div>
 
 
