@@ -119,10 +119,11 @@ body {
 
 }
 
-.bloco ul{
+.bloco ul {
     text-align: left;
 }
-.bloco ul li{
+
+.bloco ul li {
     margin-bottom: 10px;
 }
 
@@ -356,13 +357,76 @@ iframe-foxy iframe {
     height: 100%;
 }
 
-.mask{
-    position:absolute;
+.mask {
+    position: absolute;
     width: 100%;
     bottom: 0;
     left: 0;
     background-color: #202124;
     height: 25px;
+}
+
+.dropdown-menu {
+    background-color: #343538;
+    border-radius: 0;
+    padding: 0;
+}
+
+.dropdown-item:focus,
+.dropdown-item:hover {
+
+    background-color: #28a791;
+
+}
+
+
+.dropdown-item {
+    font-weight: 300;
+    color: #ffffff;
+    padding: 10px 15px;
+}
+
+.card {
+    background-color: #202124;
+    border-radius: 0;
+    margin-bottom: 1px;
+    border: none;
+}
+
+.card-header {
+
+    border-bottom: none;
+}
+
+.card-body {
+    background-color: #fff;
+    font: 300 #000;
+    text-align: justify;
+}
+
+
+.btn-link {
+    font-weight: 400;
+    color: #ffffff;
+    text-decoration: none;
+    width: 100%;
+    text-align: left;
+    text-decoration: none;
+    padding: 15px;
+    transition: all ease .3s;
+    border-radius: 0;
+}
+
+.btn-link:hover,
+.btn-link:focus {
+    color: #fff;
+    text-decoration: none;
+    background: #28a791;
+}
+
+.card-header {
+    padding: 0;
+
 }
 
 @media (max-width: 1200px) {
@@ -428,6 +492,10 @@ iframe-foxy iframe {
     .navbar-toggler:hover {
         background: #3b3889;
     }
+
+    .dropdown-item {
+        text-align: center;
+    }
 }
 
 @media (max-width: 720px) {
@@ -438,6 +506,8 @@ iframe-foxy iframe {
     .mobile {
         display: inline-block !important;
     }
+
+  
 
     .resize {
         padding-bottom: 133%;
@@ -519,11 +589,12 @@ footer {
 .video {
     aspect-ratio: 16 / 9;
     width: 100%;
-  }
+}
 
-.m-top{
+.m-top {
     margin-top: 30px;
-} 
-.m-bottom{
-    margin-bottom:50px;
+}
+
+.m-bottom {
+    margin-bottom: 50px;
 }

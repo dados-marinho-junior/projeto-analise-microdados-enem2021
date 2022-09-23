@@ -9,8 +9,7 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css"
-        integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;300;400;600&display=swap" rel="stylesheet">
@@ -50,7 +49,17 @@
                         <a class="nav-link" href="/hc">HighCharts</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="/about">Sobre</a>
+                        <div class="dropdown">
+                            <a class="dropdown-toggle nav-link" href="#" role="button" data-toggle="dropdown" aria-expanded="false">
+                              Mais
+                            </a>
+                          
+                            <div class="dropdown-menu">
+                              <a class="dropdown-item" href="/about"><i class="	fa fa-users" aria-hidden="true"></i> Sobre Nós</a> 
+                              <a class="dropdown-item" target="_blank" href="https://github.com/dados-marinho-junior/projeto-analise-microdados-enem2021"><i class="fa fa-github" aria-hidden="true"></i> Nosso Projeto</a>
+                              <a class="dropdown-item" href="/faq"><i class="fa fa-question-circle-o" aria-hidden="true"></i> FAQ</a>
+                            </div>
+                          </div>
                     </li>
                 </ul>
             </div>

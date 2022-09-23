@@ -1,0 +1,154 @@
+{% extends 'base.html' %}
+
+{% block title %}Lista de Tags{% endblock %}
+
+{% block content %}
+
+<div class="row">
+    <div class="col-md-12">
+        <h4 class="card-title text-center">FAQ</h4>
+        {% csrf_token %}
+
+
+        <p class="texto m-bottom">
+            texto faq
+        </p>
+
+        <div id="accordion" class="m-bottom">
+            <div class="card">
+                <div class="card-header" id="headingOne">
+                    <h5 class="mb-0">
+                        <button class="btn btn-link" data-toggle="collapse" data-target="#collapseOne"
+                            aria-expanded="false" aria-controls="collapseOne">
+                            Onde pode ser encontrado o conjunto de dados do Enem 2021?
+                        </button>
+                    </h5>
+                </div>
+
+                <div id="collapseOne" class="collapse" aria-labelledby="headingOne" data-parent="#accordion">
+                    <div class="card-body">
+                        Os dados do Enem 2021 e de outros anos podem ser encontrados na página do Enem disponibilizada
+                        em portal do Governo Federal em <a target="_blank"
+                            href="https://www.gov.br/inep/pt-br/acesso-a-informacao/dados-abertos/microdados/enem">
+                            Dados Enem</a>.
+                    </div>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-header" id="headingTwo">
+                    <h5 class="mb-0">
+                        <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseTwo"
+                            aria-expanded="false" aria-controls="collapseTwo">
+                            Como faço para encontrar os dados de uma cidade específica?
+                        </button>
+                    </h5>
+                </div>
+                <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordion">
+                    <div class="card-body">
+                        No menu suspenso, <b>DO EXAME</b>, temos uma lupa de pesquisa, digite o nome da cidade, assim
+                        que aparecer, selecione e clique no <b>SOMENTE</b>.
+                    </div>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-header" id="headingThree">
+                    <h5 class="mb-0">
+                        <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseThree"
+                            aria-expanded="false" aria-controls="collapseThree">
+                            Como faço para aumentar o gráfico da frequência dos alunos de 2017 a 2021?
+                        </button>
+                    </h5>
+                </div>
+                <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordion">
+                    <div class="card-body">
+                        No gráfico, clicar nas três barras localizadas no canto superior direito. Neste menu é possível
+                        aumentar o tamanho do gráfico, imprimir o gráfico, baixar o gráfico ou os dados do gráfico.
+                    </div>
+                </div>
+
+            </div>
+            <div class="card">
+                <div class="card-header" id="headingFour">
+                    <h5 class="mb-0">
+                        <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseFour"
+                            aria-expanded="false" aria-controls="collapseFour">
+                            Criei vários filtros, e agora, como faço para remover todos os filtros?
+                        </button>
+                    </h5>
+                </div>
+                <div id="collapseFour" class="collapse" aria-labelledby="headingFour" data-parent="#accordion">
+                    <div class="card-body">
+                        Clique no botão <b>REDEFINIR GRÁFICOS</b> que todos os filtros serão removidos. </div>
+                </div>
+
+            </div>
+            <div class="card">
+                <div class="card-header" id="headingFive">
+                    <h5 class="mb-0">
+                        <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseFive"
+                            aria-expanded="false" aria-controls="collapseFive">
+                            O que significa o termo Treineiro?
+                        </button>
+                    </h5>
+                </div>
+                <div id="collapseFive" class="collapse" aria-labelledby="headingFive" data-parent="#accordion">
+                    <div class="card-body">
+                        Treineiro é o candidato inscrito no Enem que tem por objetivo realizar as provas apenas para
+                        fins de autoavaliação ou ter uma primeira experiência neste tipo de exame. </div>
+                </div>
+
+            </div>
+            <div class="card">
+                <div class="card-header" id="headingSix">
+                    <h5 class="mb-0">
+                        <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseSix"
+                            aria-expanded="false" aria-controls="collapseSix">
+                            Como posso fazer um filtro dos alunos que faltaram nos dias de prova (abstenção)?
+                        </button>
+                    </h5>
+                </div>
+                <div id="collapseSix" class="collapse" aria-labelledby="headingSix" data-parent="#accordion">
+                    <div class="card-body">
+                        Nos menus suspensos com título “Classificação”, marque a caixa “Nota Anulada (igual a 0)”.
+                    </div>
+                </div>
+
+            </div>
+            <div class="card">
+                <div class="card-header" id="headingSeven">
+                    <h5 class="mb-0">
+                        <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseSeven"
+                            aria-expanded="false" aria-controls="collapseSeven">
+                            Por que a cidade onde resido não aparece no menu Local do Exame?
+                        </button>
+                    </h5>
+                </div>
+                <div id="collapseSeven" class="collapse" aria-labelledby="headingSeven" data-parent="#accordion">
+                    <div class="card-body">
+                        As provas do Enem não são aplicadas em todas as cidades do país, mas somente naquelas definidas
+                        pela organização do exame e divulgadas no edital publicado no Diário Oficial da União. </div>
+                </div>
+
+            </div>
+            <div class="card">
+                <div class="card-header" id="headingEight">
+                    <h5 class="mb-0">
+                        <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseEight"
+                            aria-expanded="false" aria-controls="collapseEight">
+                            Por que a Menor média geral dos dashboards é 0?
+                        </button>
+                    </h5>
+                </div>
+                <div id="collapseEight" class="collapse" aria-labelledby="headingEight" data-parent="#accordion">
+                    <div class="card-body">
+                        Os gráficos sem filtros fazem a média com todas as notas incluindo as anuladas, no menu suspenso
+                        é possível retirar a seleção somente das notas anuladas. </div>
+                </div>
+
+            </div>
+        </div>
+
+    </div>
+</div>
+
+{% endblock %}

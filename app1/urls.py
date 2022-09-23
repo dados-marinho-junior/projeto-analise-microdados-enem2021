@@ -9,5 +9,6 @@ urlpatterns = [
     path('db3', views.db3),
     path('db4', views.db4),
     path('hc', views.hc),
-    path('about', views.about)
+    path('about', views.about),
+    path('faq', views.faq)
 ]

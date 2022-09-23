@@ -71,6 +71,15 @@ def hc(request):
         { 'dados' : data } 
     )
 
+def faq(request):
+
+    data = version
+    
+
+    return render(request, 'faq.html', 
+        { 'dados' : data } 
+    )
+
 
 
 #def hc(request):
