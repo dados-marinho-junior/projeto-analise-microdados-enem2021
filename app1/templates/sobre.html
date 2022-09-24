@@ -1,75 +1,148 @@
 {% extends 'base.html' %}
 
 {% block title %}Lista de Tags{% endblock %}
-{% csrf_token %}  
+{% csrf_token %}
 {% block content %}
 <div class="row">
-    <div class="col-md-12">
-                <h4 class="card-title text-center">Sobre o Projeto</h4>
-               <p class="texto">
+  <div class="col-md-12">
+    <h4 class="card-title text-center">Sobre o Projeto</h4>
+    <p class="texto">
 
-                    O projeto deverá analisar dados do <b>ENEM 2021</b>, a fim de contribuir com informações 
-                    que possam viabilizar melhorias das <b>políticas públicas</b> para a <b>educação nacional</b>.
-                    Através de gráficos e relatórios, deverá demonstrar indicadores <b>geográficos e sociais</b>, 
-                    verificando se tais características refletem no desempenho dos participantes.
-                    Para desenvolvimento e gestão do projeto deve-se utilizar metodologias ágeis 
-                    ( <b>Scrum</b> e <b>Kanban</b>). Para o versionamento e a documentação dos códigos deverão ser
-                    utilizados o <b>Git</b> e <b>Github</b>. 
-                    A análise inicial e limpeza dos dados originais deverá ser feita com o 
-                    <b>Notebook Jupyter</b>. A integração e população da base de dados resultante deverá 
-                    utilizar a Linguagem <b>Python</b> utilizando a <b>IDE VSCode</b>. 
-                    Utilizar consultas em <b>SQL</b>. 
-                    A apresentação dos dados deverá ser feita em dashboards gerados pelo o <b>Google Data Studio</b> 
-                    conectado a uma base de dados permanente em <b>Cloud</b>.
+      O projeto deverá analisar dados do <b>ENEM 2021</b>, a fim de contribuir com informações
+      que possam viabilizar melhorias das <b>políticas públicas</b> para a <b>educação nacional</b>.
+      Através de gráficos e relatórios, deverá demonstrar indicadores <b>geográficos e sociais</b>,
+      verificando se tais características refletem no desempenho dos participantes.
+      Para desenvolvimento e gestão do projeto deve-se utilizar metodologias ágeis
+      ( <b>Scrum</b> e <b>Kanban</b>). Para o versionamento e a documentação dos códigos deverão ser
+      utilizados o <b>Git</b> e <b>Github</b>.
+      A análise inicial e limpeza dos dados originais deverá ser feita com o
+      <b>Notebook Jupyter</b>. A integração e população da base de dados resultante deverá
+      utilizar a Linguagem <b>Python</b> utilizando a <b>IDE VSCode</b>.
+      Utilizar consultas em <b>SQL</b>.
+      A apresentação dos dados deverá ser feita em dashboards gerados pelo o <b>Google Data Studio</b>
+      conectado a uma base de dados permanente em <b>Cloud</b>.
 
-               </p>
-               <br><br>
-                <h4 class="card-title text-center">Sobre os Desenvolvedores</h4>  
-                <ul>
-                    <br>
-                    <li> Diogo Lindemann </li>
-                    <li> Francisco de Assis </li>
-                    <li> Luana Naiara </li>
-                    <li> Marcelo Yukio Takahashi </li>
-                    <li> Rafael Rosso </li>
-                    <li> Sylvio Carneiro Junior </li>
-                    <br>
-                
+    </p>
+    <br><br>
+    <h4 class="card-title text-center">Sobre os Desenvolvedores</h4>
 
-                    
-                    
-
-    </div>
+  </div>
 </div>
 <div class="row mb-2">
-    <div class="col-md-6">
-      <div class="card flex-md-row mb-4 box-shadow h-md-250">
-        <div class="card-body d-flex flex-column align-items-start">
-          <strong class="d-inline-block mb-2 text-primary">World</strong>
-          <h3 class="mb-0">
-            <a class="text-dark" href="#">Featured post</a>
-          </h3>
-          <div class="mb-1 text-muted">Nov 12</div>
-          <p class="card-text mb-auto">This is a wider card with supporting text below as a natural lead-in to additional content.</p>
-          <a href="#">Continue reading</a>
-        </div>
-        <img class="card-img-right flex-auto d-none d-md-block" data-src="holder.js/200x250?theme=thumb" alt="Thumbnail [200x250]" style="width: 200px; height: 250px;" src="data:image/svg+xml;charset=UTF-8,%3Csvg%20width%3D%22200%22%20height%3D%22250%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%20200%20250%22%20preserveAspectRatio%3D%22none%22%3E%3Cdefs%3E%3Cstyle%20type%3D%22text%2Fcss%22%3E%23holder_18367c9c955%20text%20%7B%20fill%3A%23eceeef%3Bfont-weight%3Abold%3Bfont-family%3AArial%2C%20Helvetica%2C%20Open%20Sans%2C%20sans-serif%2C%20monospace%3Bfont-size%3A13pt%20%7D%20%3C%2Fstyle%3E%3C%2Fdefs%3E%3Cg%20id%3D%22holder_18367c9c955%22%3E%3Crect%20width%3D%22200%22%20height%3D%22250%22%20fill%3D%22%2355595c%22%3E%3C%2Frect%3E%3Cg%3E%3Ctext%20x%3D%2256.1953125%22%20y%3D%22131%22%3EThumbnail%3C%2Ftext%3E%3C%2Fg%3E%3C%2Fg%3E%3C%2Fsvg%3E" data-holder-rendered="true">
+  <div class="col-lg-6">
+    <div class="card-cur flex-md-row mb-4 box-shadow h-md-250">
+      <div class="card-body d-flex flex-column align-items-start">
+        <h5 class="mb-0">
+          <div class="text-dark">Rafael Rosso</div>
+        </h5>
+        <div class="mb-4 text-muted">Scrum Master</div>
+        <a href="http://github.com/rafaelrosso" target="_blank"><i class="fa fa-github" aria-hidden="true"></i> Github</a>
+        <a href="http://linkedin.com/in/rafael-rosso-analista-de-dados-python-sql-r/" target="_blank"><i class="fa fa-linkedin-square" aria-hidden="true"></i> Linkedin</a>
+        <a href="mailto:rafael.rosso.1984@gmail.com" target="_blank"><i class="fa fa-envelope" aria-hidden="true"></i> Email</a>
       </div>
+      <div class="card-avatar" alt="" style="background:url(https://avatars.githubusercontent.com/u/104105033)50% 0;"
+       ></div>
     </div>
-    <div class="col-md-6">
-      <div class="card flex-md-row mb-4 box-shadow h-md-250">
-        <div class="card-body d-flex flex-column align-items-start">
-          <strong class="d-inline-block mb-2 text-success">Design</strong>
-          <h3 class="mb-0">
-            <a class="text-dark" href="#">Post title</a>
-          </h3>
-          <div class="mb-1 text-muted">Nov 11</div>
-          <p class="card-text mb-auto">This is a wider card with supporting text below as a natural lead-in to additional content.</p>
-          <a href="#">Continue reading</a>
-        </div>
-        <img class="card-img-right flex-auto d-none d-md-block" data-src="holder.js/200x250?theme=thumb" alt="Thumbnail [200x250]" src="data:image/svg+xml;charset=UTF-8,%3Csvg%20width%3D%22200%22%20height%3D%22250%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%20200%20250%22%20preserveAspectRatio%3D%22none%22%3E%3Cdefs%3E%3Cstyle%20type%3D%22text%2Fcss%22%3E%23holder_18367c9c957%20text%20%7B%20fill%3A%23eceeef%3Bfont-weight%3Abold%3Bfont-family%3AArial%2C%20Helvetica%2C%20Open%20Sans%2C%20sans-serif%2C%20monospace%3Bfont-size%3A13pt%20%7D%20%3C%2Fstyle%3E%3C%2Fdefs%3E%3Cg%20id%3D%22holder_18367c9c957%22%3E%3Crect%20width%3D%22200%22%20height%3D%22250%22%20fill%3D%22%2355595c%22%3E%3C%2Frect%3E%3Cg%3E%3Ctext%20x%3D%2256.1953125%22%20y%3D%22131%22%3EThumbnail%3C%2Ftext%3E%3C%2Fg%3E%3C%2Fg%3E%3C%2Fsvg%3E" data-holder-rendered="true" style="width: 200px; height: 250px;">
+  </div>
+  <div class="col-lg-6">
+    <div class="card-cur flex-md-row mb-4 box-shadow h-md-250">
+      <div class="card-body d-flex flex-column align-items-start">
+        <h5 class="mb-0">
+          <div class="text-dark">Prof. Adriano Machado</div>
+        </h5>
+        <div class="mb-4 text-muted">Product Owner</div>
+        <a href="https://github.com/Machado-tec" target="_blank"><i class="fa fa-github" aria-hidden="true"></i> Github</a>
+        <a href="https://www.linkedin.com/in/xadrak/" target="_blank"><i class="fa fa-linkedin-square" aria-hidden="true"></i> Linkedin</a>
+        <a href="mailto:admin@machado.tec.br" target="_blank"><i class="fa fa-envelope" aria-hidden="true"></i> Email</a>
       </div>
+      <div class="card-avatar" alt="" style="background:url(https://avatars.githubusercontent.com/u/89116697)50% 0;"
+       ></div>
     </div>
-  </div> 
-
+  </div>
+</div>
+<div class="row mb-2">
+  <div class="col-lg-6">
+    <div class="card-cur flex-md-row mb-4 box-shadow h-md-250">
+      <div class="card-body d-flex flex-column align-items-start">
+        <h5 class="mb-0">
+          <div class="text-dark">Diogo Lindemann</div>
+        </h5>
+        <div class="mb-4 text-muted">Developer</div>
+        <a href="https://github.com/diogoray" target="_blank"><i class="fa fa-github" aria-hidden="true"></i> Github</a>
+        <a href="https://www.linkedin.com/in/diogo-lindemann-b1279b227/" target="_blank"><i class="fa fa-linkedin-square" aria-hidden="true"></i> Linkedin</a>
+        <a href="mailto:diogolindemann@gmail.com" target="_blank"><i class="fa fa-envelope" aria-hidden="true"></i> Email</a>
+      </div>
+      <div class="card-avatar" alt="" style="background:url(https://avatars.githubusercontent.com/u/104396832)50% 0;"
+       ></div>
+    </div>
+  </div>
+  <div class="col-lg-6">
+    <div class="card-cur flex-md-row mb-4 box-shadow h-md-250">
+      <div class="card-body d-flex flex-column align-items-start">
+        <h5 class="mb-0">
+          <div class="text-dark">Francisco de Assis</div>
+        </h5>
+        <div class="mb-4 text-muted">Developer</div>
+        <a href="https://github.com/dados-marinho-junior" target="_blank"><i class="fa fa-github" aria-hidden="true"></i> Github</a>
+        <a href="https://www.linkedin.com/in/marinho-junior-analise-dados/" target="_blank"><i class="fa fa-linkedin-square" aria-hidden="true"></i> Linkedin</a>
+        <a href="mailto:marinhojr3@hotmail.com" target="_blank"><i class="fa fa-envelope" aria-hidden="true"></i> Email</a>
+      </div>
+      <div class="card-avatar" alt="" style="background:url(https://avatars.githubusercontent.com/u/104402499)50% 0;"
+       ></div>
+    </div>
+  </div>
+</div>
+<div class="row mb-2">
+  <div class="col-lg-6">
+    <div class="card-cur flex-md-row mb-4 box-shadow h-md-250">
+      <div class="card-body d-flex flex-column align-items-start">
+        <h5 class="mb-0">
+          <div class="text-dark">Luana Naiara</div>
+        </h5>
+        <div class="mb-4 text-muted">Developer</div>
+        <a href="https://github.com/LuhNaiara" target="_blank"><i class="fa fa-github" aria-hidden="true"></i> Github</a>
+        <a href="https://www.linkedin.com/in/luana-naiara-silva-da-luz-38a81272/" target="_blank"><i class="fa fa-linkedin-square" aria-hidden="true"></i> Linkedin</a>
+        <a href="mailto:luh.s.naiara@gmail.com" target="_blank"><i class="fa fa-envelope" aria-hidden="true"></i> Email</a>
+      </div>
+      <div class="card-avatar" alt="" style="background:url(https://avatars.githubusercontent.com/u/104043545)50% 0;"
+       ></div>
+    </div>
+  </div>
+  <div class="col-lg-6">
+    <div class="card-cur flex-md-row mb-4 box-shadow h-md-250">
+      <div class="card-body d-flex flex-column align-items-start">
+        <h5 class="mb-0">
+          <div class="text-dark">Marcelo Takahashi</div>
+        </h5>
+        <div class="mb-4 text-muted">Developer</div>
+        <a href="https://github.com/MYTakahashi" target="_blank"><i class="fa fa-github" aria-hidden="true"></i> Github</a>
+        <a href="https://www.linkedin.com/in/takahashimarcelo/" target="_blank"><i class="fa fa-linkedin-square" aria-hidden="true"></i> Linkedin</a>
+        <a href="mailto:marcelo.takahashi.75@gmail.com" target="_blank"><i class="fa fa-envelope" aria-hidden="true"></i> Email</a>
+      </div>
+      <div class="card-avatar" alt="" style="background:url(https://avatars.githubusercontent.com/u/104110666)50% 0;"
+       ></div>
+    </div>
+  </div>
+</div>
+<div class="row mb-2">
+  <div class="col-lg-6">
+    <div class="card-cur flex-md-row mb-4 box-shadow h-md-250">
+      <div class="card-body d-flex flex-column align-items-start">
+        <h5 class="mb-0">
+          <div class="text-dark">Sylvio Carneiro Junior</div>
+        </h5>
+        <div class="mb-4 text-muted">Developer</div>
+        <a href="https://github.com/sylviocjr" target="_blank"><i class="fa fa-github" aria-hidden="true"></i> Github</a>
+        <a href="https://www.linkedin.com/in/sylvio-carneiro-junior/" target="_blank"><i class="fa fa-linkedin-square" aria-hidden="true"></i> Linkedin</a>
+        <a href="mailto:sylviocjr.dev@gmail.com" target="_blank"><i class="fa fa-envelope" aria-hidden="true"></i> Email</a>
+      </div>
+      <div class="card-avatar" alt="" style="background:url(https://avatars.githubusercontent.com/u/96093825)50% 0;"
+       ></div>
+    </div>
+  </div>
+  <div class="col-lg-6">
+  </div>
+</div>
+<div class="mt-5">
 {% endblock %}
+</div>

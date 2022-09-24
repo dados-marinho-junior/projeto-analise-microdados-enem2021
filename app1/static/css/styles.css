@@ -400,7 +400,6 @@ iframe-foxy iframe {
 
 .card-body {
     background-color: #fff;
-    font: 300 #000;
     text-align: justify;
 }
 
@@ -426,8 +425,57 @@ iframe-foxy iframe {
 
 .card-header {
     padding: 0;
-
 }
+
+
+.card-avatar{
+    width: 178px;
+    background-size: cover !important;
+    background-repeat: no-repeat !important;
+}
+.card-cur {
+    position: relative;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: column;
+    flex-direction: row;
+    min-width: 0;
+    word-wrap: break-word;
+    background-color: #fff;
+    background-clip: border-box;
+    border: none;
+    border-radius: 0;
+    
+}
+
+.card-cur .card-body {
+    text-align: left;
+    padding: 20px 7px 20px 20px;
+}
+
+
+.card-body .fa {
+    min-width: 20px;
+}
+
+.text-dark {
+    text-align: left;
+    font-size: 18px;
+}
+.text-muted{
+    font-size: 13px;
+}
+
+.card-body a{
+    color: #222;
+    font-weight: 400;
+    transition: all ease .3s;
+}
+.card-body a:hover, .card-body a:focus{
+   text-decoration: none;
+   color: #28a791;
+}
+
 
 @media (max-width: 1200px) {
     .navbar-expand-lg {
@@ -521,6 +569,19 @@ iframe-foxy iframe {
         display: block;
         overflow: hidden;
         font-size: 24px;
+    }
+
+    .text-dark {
+
+        margin-top: 15px;
+    }
+
+    .card-avatar {
+        width: 100px;
+        height: 100px;
+        border-radius: 50px;
+        margin-right: 10px;
+        margin-top: 10px;
     }
 
 }
