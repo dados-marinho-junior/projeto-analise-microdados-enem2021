@@ -64,7 +64,7 @@ def db4(request):
 
 def hc(request):
 
-    data = version
+    data = funcao_la_embaixo()
     
 
     return render(request, 'highcharts.html', 
@@ -114,3 +114,6 @@ def about(request):
     return render(request, 'sobre.html',
                   {'dados': data}
                   )
+
+
+#  salvar aqui
