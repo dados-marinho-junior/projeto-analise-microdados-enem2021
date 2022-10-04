@@ -1,3 +1,4 @@
+from secrets import choice
 from django.shortcuts import render
 from django.contrib.auth.decorators import login_required
 # Create your views here.
@@ -112,7 +113,7 @@ def about(request):
 
 
 #  salvar aqui
-def DadosHicharts():
+def DadosHicharts(choice):
     Anos = list(TagDis.objects.order_by(
         'data').values_list('data', flat=True).distinct())
 
@@ -160,13 +161,11 @@ def DadosHicharts():
     # print(media_geral)
     # print(media)
 
-    chart = {
-                'container':
-                    {
+    chart1 = {             
                     'title': {
                         'text': 'Frequência de alunos de 2017 a 2021',
-                        'align': 'left'}
-                    },
+                        'align': 'left'},
+                    
                     'xAxis':
                     {
                     'categories': categories
@@ -189,24 +188,73 @@ def DadosHicharts():
                         },
                         {
                         'type': 'spline',
-                        'name': 'Faltas',
+                        'name': 'Faltantes',
                         'data': faltantes,
                         'marker': {
                             'lineWidth': 2,
-                            'lineColor': 'Highcharts.getOptions().colors[2]',
+                            'lineColor': 'green',
                             'fillColor': 'white'
                         }
                         }]
                     }
-    return chart                
+           
+    
+
+    chart2 = {
+                    'title': {
+                        'text': 'werewrwera 2021',
+                        'align': 'left'},
+                    
+                    'xAxis':
+                    {
+                    'categories': categories
+                    },
+                    'yAxis': {
+                        'title': {
+                            'text': 'Inscritos'
+                        }
+                    },
+                    'series': [
+                        {
+                        'type': 'column',
+                        'name': 'Inscritos',
+                        'data': inscritos,
+                        },
+                        {
+                        'type': 'column',
+                        'name': 'Partcipantes',
+                        'data': participantes
+                        },
+                        {
+                        'type': 'spline',
+                        'name': 'Faltantes',
+                        'data': faltantes,
+                        'marker': {
+                            'lineWidth': 2,
+                            'lineColor': 'green',
+                            'fillColor': 'white'
+                        }
+                        }]
+
+                    }
+    if choice == 1:
+         return chart1
+    if choice == 2:
+         return chart2                     
+                           
 
 
 
 def hc(request):
+    data = version
 
-    data = DadosHicharts()    
+    high1 = DadosHicharts(1)
+    high2 = DadosHicharts(2)  
+       
     # return (request,data)
 
     return render(request, 'highcharts.html', 
-        { 'dados' : data } 
+        { 'charts1' : high1,
+         'charts2' : high2,
+          'dados' : data  }      
     )

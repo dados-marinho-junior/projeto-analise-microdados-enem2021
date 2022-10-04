@@ -48,7 +48,7 @@
   <script src="https://code.highcharts.com/modules/accessibility.js"></script>
 
   <figure class="highcharts-figure">
-    <div id="container"></div>
+    <div id="container1"></div>
 
       <p class="highcharts-description">
       Observamos uma diminuição gradativa do número de inscritos, participantes
@@ -75,7 +75,9 @@
   
 
   <script>
-    Highcharts.chart('container', {{ dados | safe }} );
+    Highcharts.chart('container1', {{ charts1 | safe }} );
+    Highcharts.chart('container2', {{ charts2 | safe }} );
+    
   </script> 
 </div>
 
