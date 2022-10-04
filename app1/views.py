@@ -202,7 +202,7 @@ def DadosHicharts(choice):
 
     chart2 = {
                     'title': {
-                        'text': 'werewrwera 2021',
+                        'text': 'Média Inscritos x Média Participantes de 2017 a 2021',
                         'align': 'left'},
                     
                     'xAxis':
@@ -211,30 +211,21 @@ def DadosHicharts(choice):
                     },
                     'yAxis': {
                         'title': {
-                            'text': 'Inscritos'
+                            'text': 'Médias'
                         }
                     },
                     'series': [
                         {
                         'type': 'column',
-                        'name': 'Inscritos',
-                        'data': inscritos,
+                        'name': 'Média Inscritos',
+                        'data':media_geral,
                         },
                         {
                         'type': 'column',
-                        'name': 'Partcipantes',
-                        'data': participantes
-                        },
-                        {
-                        'type': 'spline',
-                        'name': 'Faltantes',
-                        'data': faltantes,
-                        'marker': {
-                            'lineWidth': 2,
-                            'lineColor': 'green',
-                            'fillColor': 'white'
-                        }
-                        }]
+                        'name': 'Média Participantes',
+                        'data': media
+                        },                       
+                        ]
 
                     }
     if choice == 1:
