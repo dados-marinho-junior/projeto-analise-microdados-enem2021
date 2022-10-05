@@ -114,9 +114,10 @@ def about(request):
 
 #  salvar aqui
 def DadosHicharts(choice):
-    Anos = list(TagDis.objects.order_by(
-        'data').values_list('data', flat=True).distinct())
+    Anos_ = list(TagDis.objects.order_by(
+        'data').values_list('data', flat=True))
 
+    Anos = Anos_.distinct('data')
     # print("Anos............:", Anos)
 
     categories = []
