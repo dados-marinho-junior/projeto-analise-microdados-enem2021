@@ -1,42 +1,45 @@
-{% extends 'base.html' %}
+{% extends 'base.html' %} 
+{% block title %}Resultados em HighCharts{% endblock %} 
 
-{% block title %}Lista de Tags{% endblock %}
-
-{% block content %}
-
+{% block content %} 
 {% csrf_token %}
 
 <div class="bloco">
   <h4 class="card-title text-center">HighCharts</h4>
-  {% csrf_token %}
 
+
+  
   <p class="texto">
-
-    Os gráficos desta página nos foram propostos como um desafio adicional no nosso projeto com a incorporação da
-    biblioteca de gráficos Highcharts. Seu emprego foi ao encontro de curiosidades que foram surgindo no decorrer de
+    Os gráficos desta página nos foram propostos como um desafio adicional no
+    nosso projeto com a incorporação da biblioteca de gráficos Highcharts. Seu
+    emprego foi ao encontro de curiosidades que foram surgindo no decorrer de
     nosso projeto, tais como:
   </p>
   <ul>
     <li>Quais os índices de abstenção do Enem nos últimos anos ?</li>
-    <li>  Qual foi o índice de abstenção em 2020, em pleno período de pandemia de Covid 19?</li>
-  <li>  É possível se verificar alguma tendência de aumento ou queda nos índices de participação ou abstenção no Enem nas
-    últimas edições?</li>
-  <li>  Qual é o impacto nas médias ocasionado pelas abstenções totais? E como são impactadas as médias em se considerando
-    apenas os participantes efetivos?</li>
+    <li>
+      Qual foi o índice de abstenção em 2020, em pleno período de pandemia de
+      Covid 19?
+    </li>
+    <li>
+      É possível se verificar alguma tendência de aumento ou queda nos índices
+      de participação ou abstenção no Enem nas últimas edições?
+    </li>
+    <li>
+      Qual é o impacto nas médias ocasionado pelas abstenções totais? E como são
+      impactadas as médias em se considerando apenas os participantes efetivos?
+    </li>
   </ul>
   <p class="texto">
-    Para sanar estas dúvidas e atender ao desafio proposto à equipe, foi feito um levantamento dos índices globais de
-    participação e abstenção nas edições do Enem de 2017 a 2021, juntamente com as médias gerais, adotando-se o mesmo
-    critério de 2021 aos anos anteriores. Algumas conclusões são relatadas a seguir e podem ser observadas nos gráficos
-    criados com Highcharts:
-
+    Para sanar estas dúvidas e atender ao desafio proposto à equipe, foi feito
+    um levantamento dos índices globais de participação e abstenção nas edições
+    do Enem de 2017 a 2021, juntamente com as médias gerais, adotando-se o mesmo
+    critério de 2021 aos anos anteriores. Algumas conclusões são relatadas a
+    seguir e podem ser observadas nos gráficos criados com Highcharts:
   </p>
-
 </div>
 
-
 <div>
-
   <!-- partial:index.partial.html -->
   <script src="https://code.highcharts.com/highcharts.js"></script>
   <script src="https://code.highcharts.com/modules/series-label.js"></script>
@@ -44,41 +47,38 @@
   <script src="https://code.highcharts.com/modules/export-data.js"></script>
   <script src="https://code.highcharts.com/modules/accessibility.js"></script>
 
-
   <figure class="highcharts-figure">
-    <div id="container"></div>
-    <p class="highcharts-description">
-      Observamos uma diminuição gradativa do número de inscritos,
-      participantes e das faltas de 2017 até 2019. Em 2020 com o cenário
-      de pandemia, o número de inscritos voltou a crescer, contudo o
-      número de faltantes foi equivalente à 55,3% do total, a maior
-      abstenção de toda a história do Enem. Em 2021 houve o menor
-      número de inscrições desde de 2017, porém os faltante
-      representam apenas 33,9% dos inscritos.
+    <div id="container1"></div>
+
+      <p class="highcharts-description">
+      Observamos uma diminuição gradativa do número de inscritos, participantes
+      e das faltas de 2017 até 2019. Em 2020 com o cenário de pandemia, o número
+      de inscritos voltou a crescer, contudo o número de faltantes foi
+      equivalente à 55,3% do total, a maior abstenção de toda a história do
+      Enem. Em 2021 houve o menor número de inscrições desde de 2017, porém os
+      faltante representam apenas 33,9% dos inscritos.
     </p>
   </figure>
-
-
 
   <figure class="highcharts-figure">
     <div id="container2"></div>
     <p class="highcharts-description">
-      No gráfico das médias percebemos o impacto da análise exploratória
-      e a escolha do dado a ser trabalho e apresentado.
-      As médias apresentam desequilíbrio em todos os anos, quando usamos
-      o número de participantes ou inscritos como métrica.
-      Em 2020 observamos um aumento da Média x Participantes em 280,
-      78 pontos se comparada a de Média x Inscritos.
+      No gráfico das médias percebemos o impacto da análise exploratória e a
+      escolha do dado a ser trabalho e apresentado. As médias apresentam
+      desequilíbrio em todos os anos, quando usamos o número de participantes ou
+      inscritos como métrica. Em 2020 observamos um aumento da Média x
+      Participantes em 280, 78 pontos se comparada a de Média x Inscritos.
     </p>
   </figure>
 
-  <!-- partial -->
+  
+  
 
-
-
+  <script>
+    Highcharts.chart('container1', {{ charts1 | safe }} );
+    Highcharts.chart('container2', {{ charts2 | safe }} );
+    
+  </script> 
 </div>
-<script src="\static\js\script.js"></script>
-
-
 
 {% endblock %}
