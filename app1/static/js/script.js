@@ -55,4 +55,4 @@ Highcharts.chart('container', {
       name: 'Média Participantes',
       data: [511.01, 520.25, 514.81, 517.99, 527.04]
     },]
-  });
+  }); 

@@ -248,4 +248,4 @@ def hc(request):
         { 'charts1' : high1,
          'charts2' : high2,
           'dados' : data  }      
-    )
+    ) 
