@@ -4,7 +4,7 @@ from django.contrib.auth.decorators import login_required
 # Create your views here.
 
 #Controle de versão
-version = "Versão 1.0.1"
+version = "Versão 1.1.2"
 # @login_required
 
 ## imports to Dict to Highcharts
