@@ -13,9 +13,11 @@
 
 5) Executar o script main.py, aguardar todo o processo;
 
-6) Nesta etapa do projeto ja terá a VIEWS montada, estão voce pode a SQL
-para qualquer seguimento como **TABLEU, POWER BI** entre outros. Nos utilizamos
+6) Nesta etapa do projeto ja terá a VIEWS montada, estão você pode usar a SQL
+para qualquer seguimento como **TABLEAU, POWER BI** entre outros. Nos utilizamos
 o **DATA STUDIO** para análise, você pode copiar o modelo neste link
 <https://datastudio.google.com/reporting/c8a3e394-759a-4082-84d9-e7d59e22d525>
 Clicando no **( ⋮ )** e selecionar, fazer uma cópia referenciando sua fonte de dados do BIG QUERY.
+
+    6.1)Para consulta de atualizações de campos você pode consultar o arquivo baixado microdados_enem_2021.zip dentro da pasta Dicionario/Dicionário_Microdados_Enem_2021.xlsx
  
