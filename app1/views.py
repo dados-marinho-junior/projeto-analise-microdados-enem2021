@@ -147,6 +147,13 @@ def DadosHicharts(choice):
         # print("Media Geral.....:", MediaGeral)
         # print("Media...........:", Media)
 
+#	2017	2018	2019	2020	2021
+#Inscritos	6731278	5513733	5095171	5783109	3389830
+#Participantes	4710443	4157616	3929955	2761419	2384920
+#Faltantes	2020835	1356117	1165216	3021690	1004910
+#Média Participantes	503.71	513.24	508.23	511.02	519.70
+#Média Inscritos	352.49	387.01	392.00	244.01	365.64
+
         inscritos.append(Inscritos['inscritos__sum'])
         participantes.append(Participantes['participantes__sum'])
         faltantes.append(Faltantes['faltantes__sum'])
