@@ -1,3 +1,8 @@
+''' 
+ * @author Equipe01 
+ * @versão 2.0
+ * @package utils'''
+
 import pandas as pd
 import numpy as np
 

@@ -1,16 +1,24 @@
+''' 
+ * @author Equipe01 
+ * @versão 2.0
+ * @package utils'''
+
 from google.cloud import bigquery
 from settings import *
 
 def criar_view(dataset, client):
-    # Criação da VIEW
-    view_id = dataset.table(VIEW)
-# Se existir, executa um DROP TABLE e cria nova VIEW
-    client.delete_table(view_id, not_found_ok=True)
+  '''
+  Esta função recebe a tupla (dataset, client) e faz as verificações da VIEWS.
+  '''    
+  # Criação da VIEWS
+  view_id = dataset.table(VIEW)
+  # Se existir, executa um DROP TABLE e cria nova VIEWS
+  client.delete_table(view_id, not_found_ok=True)
 
-# Aqui carrega a rota do projeto
-    source_id = (PROJETO+'.'+DATABASE+'.'+TABLE)
-    view = bigquery.Table(view_id)
-    view.view_query = f'''SELECT
+  # Aqui carrega a rota do projeto
+  source_id = (PROJETO+'.'+DATABASE+'.'+TABLE)
+  view = bigquery.Table(view_id)
+  view.view_query = f'''SELECT
   CASE
     WHEN TP_FAIXA_ETARIA = "1" THEN 'Menor que 17 anos'
     WHEN TP_FAIXA_ETARIA IN ("2", "3", "4", "5") THEN "Entre 17 e 20 anos"
@@ -215,5 +223,5 @@ END
   AS Q25,
   MEDIA_ENEM AS Media_Enen FROM {source_id} '''
 
-    view = client.create_table(view)
-    print(f"Criada a visualização: {str(view.reference)}")
+  view = client.create_table(view)
+  print(f"Criada a visualização: {str(view.reference)}")

@@ -1,24 +1,34 @@
+''' 
+ * @author Equipe01 
+ * @versão 2.0
+ * @package utils'''
+
 from google.cloud import bigquery
 from settings import *
 
 
 def criar_schema(data_frame):
+    '''
+    Esta função recebe um objeto do tipo dataframe criado pelo pandas,
+    faz as verificações, cria um schema, faz a população dos dados e
+    retorna o dataset e o client em forma de uma tupla.
+    ''' 
     client = bigquery.Client()
     dataset_id = (PROJETO+'.'+DATABASE)
 
     try:
-    #aqui confere se existe
+    #confere se existe o dataset
         client.get_dataset(dataset_id) 
     except:
-    #se não existe cria um novo
+    #se não existe, cria um novo dataset
         dataset = client.create_dataset(DATABASE)
         print('\nBanco de dados criado.') 
     else:
-    # se existe,  somente carrega o dataset
+    #se existe, somente carrega o dataset
         dataset = client.dataset(DATABASE)
         print('\nBanco de dados encontrado.')
 
-# Aqui cria a tabela
+#  criação da tabela
     table_id = dataset.table(TABLE)
     print('\nTabela criada.')
 # Se ela existe, executa um DROP TABLE e recria a tabela
