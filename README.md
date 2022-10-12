@@ -33,35 +33,22 @@ A análise inicial e limpeza dos dados originais deverá ser feita com o **Noteb
 <br>
 
 ## 📁 Acesse o repositório do nosso projeto!
-**[Link GitHub](https://github.com/dados-marinho-junior/projeto-analise-microdados-enem2021.git)**
+**[Link do Projeto](/projeto)**
 <span align="center">
 
 <br>
 
-## 📅 As Sprints 
+## 📅 Histórico de Desenvolvimento
 
 <img align="right" width="140" height="120" src="https://user-images.githubusercontent.com/104402499/184881304-f9f1eab8-c72a-474e-8c5c-cce904d8686b.png">
 
 <br> 
 
-🔖 SPRINT 1 ([Link da Pasta](/Sprint/Sprint01.md "Link Sprint01")):  Concluído ☑️ 
-
-🔖 SPRINT 2 ([Link da Pasta](/Sprint/Sprint02.md "Link Sprint02")):  Concluído ☑️
-
-🔖 SPRINT 3 ([Link da Pasta](/Sprint/Sprint03.md "Link Sprint03")):  Concluído ☑️
-
-🔖 SPRINT 4 ([Link da Pasta](/Sprint/Sprint04.md "Link Sprint04")):  Concluído ☑️
-
-🔖 SPRINT 5 ([Link da Pasta](/Sprint/Sprint05.md "Link Sprint05")):  Concluído ☑️
-
-🔖 SPRINT 6 ([Link da Pasta](/Sprint/Sprint06.md "Link Sprint06")):
+🔖 README.MD ([Link para o Arquivo](/projeto/README.MD " README.MD")):  Concluído ☑️ 
 
 
-<br>
 
-## 🌌 Acesse aos Docs e Views do projeto!
 
-🔗 Docs/Views ([Link da Pasta](/docs "Link Docs/Views"))
 
 <br>
 
@@ -74,15 +61,7 @@ A análise inicial e limpeza dos dados originais deverá ser feita com o **Noteb
 
 <br>
 
-## ☁️ Banco de Dados na Nuvem
 
-O Banco de Dados deste projeto está integrado no sistema MySQL da Oracle Corporation, Google Cloud Storage juntamente com Big Query.
-
-🔗 Conexão MySQL ([Link da Pasta](/Projeto/004_conexao_banco_dados.py "Link MySQL"))
-
-🔗 Conexão Google Cloud ([Link da Pasta](/Projeto/005_conexao_google_cloud_store.py "Link Google Cloud"))
-
-<br>
 
 ## 💻 Tecnologias e Ferramentas
 <p align="left">
@@ -111,6 +90,9 @@ O Banco de Dados deste projeto está integrado no sistema MySQL da Oracle Corpor
   - [GitHub](https://github.com/)
   - [Markdown](https://www.markdownguide.org/)
   - [Google Drive](https://drive.google.com/drive/folders/1eXWQ8HOOUxKgyQCPdjJovsSDCPuKIQSE)
+  - [Usando BigQuery com Python](https://codelabs.developers.google.com/codelabs/cloud-bigquery-python#0)
+  - [Configuração do ambiente BigQuery com Python](https://cloud.google.com/python/docs/setup)
+
 
 <br>
 
