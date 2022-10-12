@@ -32,6 +32,41 @@ A análise inicial e limpeza dos dados originais deverá ser feita com o **Noteb
 
 <br>
 
+## Estrutura dos Arquivos📍
+Dentro da pasta projeto você encontrará os seguintes diretórios e arquivos:
+
+```bash
+< PROJETO ROOT >
+   |
+   |-- docs/                    # Arquivos de textos
+   |    |
+   |    |-- ATA_01.md           # Ata das reuniões de Agosto
+   |    |-- ATA_02.md           # Ata das reuniões de Setembro
+   |    |-- ATA_03.md           # Ata das reuniões de Outubro
+   |
+   |-- extras/                  # Arquivos opcionais e de estudo
+   |    |
+   |    |-- main.ipynb          # ETL do projeto em Jupyter
+   |    |-- main_conn.py        # Conexão a Banco de dados Mysql
+   |
+   |-- utils/                   # Arquivos operacionais do Projeto
+   |    |
+   |    |-- README.md           # Descrição do Processos
+   |    |-- analise.py          # ETL do Projeto
+   |    |-- main.py             # Executa o Projeto
+   |    |-- schema.py           # População o cojunto de dados
+   |    |-- settings.py         # Configuração do Projeto
+   |    |-- views.py            # Cria a Views do Projeto
+   |
+   |-- INSTALL.md               # Tutorial de instalação do Projeto
+   |-- README.md                # Histórico de Desenvolvimento
+   |-- requirements.txt         # Instalação dos módulos e bibliotecas
+   |
+   |
+   |-- ****************************************************************
+```
+<br>
+
 ## 📁 Acesse o repositório do nosso projeto!
 **[Link do Projeto](/projeto)**
 <span align="center">
@@ -44,7 +79,7 @@ A análise inicial e limpeza dos dados originais deverá ser feita com o **Noteb
 
 <br> 
 
-🔖 README.MD ([Link para o Arquivo](/projeto/README.MD " README.MD")):  Concluído ☑️ 
+🔖 README.md ([Link para o Arquivo](/projeto/README.md " README.md")):  Concluído ☑️ 
 
 
 
