@@ -46,13 +46,25 @@
 - O professor orientou o grupo sobre a instalação do Heroku
 
 ## Dia 20/09/2022
+- Correção styles.css layout mobile
+- Criação e inclusão logotipo do grupo
+- Alterações e aperfeiçoamentos dos templates páginas django
 
 ## Dia 22/09/2022
+- Alterações de fonte e cores web django
+- Aperfeiçoamento layout mobile
+- Inclusão textos páginas home, dashboard e highcharts
 
 ## Dia 23/09/2022
+- Melhorando front-end web
+- Revisão gramatical 
+- Revisão funcionamento dashboard e highcharts
 
 ## Dia 27/09/2022
-
+- Inclusão do segundo gráfico dos highcharts 
 ## Dia 29/09/2022
+- Revisão código highcharts
+- Correção bug django
 
 ## Dia 30/09/2022
+- Correção bug django
