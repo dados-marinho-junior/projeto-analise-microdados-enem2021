@@ -1,6 +1,6 @@
 ''' 
  * @author Equipe01 
- * @versão 2.0
+ * @versão 2.0.0
  * @package utils'''
 
 from google.cloud import bigquery

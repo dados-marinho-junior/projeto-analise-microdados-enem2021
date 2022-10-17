@@ -2,7 +2,7 @@
 
 ''' 
  * @author Equipe01 
- * @versão 2.0
+ * @versão 2.0.0
  * @package utils
  
 Através deste arquivo você deve configurar todo o projeto.
