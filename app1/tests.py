@@ -23,9 +23,12 @@ class Teste1(TestCase):
 # SUM(FALTANTES) AS Faltas, ROUND(AVG(MEDIA_GERAL),2 ) AS Media_Inscritos,
 # ROUND(AVG(MEDIA),2 ) AS Media_Participantes FROM app1_tagdis GROUP BY DATA ORDER BY DATA ASC;
 
-    def test_Inscriots(self):
+    def test_Inscritos(self):
         Anos = list(TagDis.objects.order_by(
             'data').values_list('data', flat=True).distinct())
+
+        Ufs = list(TagDis.objects.order_by(
+            'uf').values_list('uf', flat=True).distinct())
 
         print("Anos............:", Anos)
 
@@ -36,8 +39,10 @@ class Teste1(TestCase):
         media_geral = []
         media = []
 
+
         for ano in Anos:
             print(f'Ano.............: {ano}')
+            
 
             categories.append(ano)
 
@@ -47,21 +52,49 @@ class Teste1(TestCase):
                 data=ano).aggregate(Sum('participantes'))
             Faltantes = TagDis.objects.filter(
                 data=ano).aggregate(Sum('faltantes'))
-            MediaGeral = TagDis.objects.filter(
-                data=ano).aggregate(Avg('media_geral'))
-            Media = TagDis.objects.filter(data=ano).aggregate(Avg('media'))
 
-            print("Inscritos.......:", Inscritos)
-            print("Participantes...:", Participantes)
-            print("Faltantes.......:", Faltantes)
-            print("Media Geral.....:", MediaGeral)
-            print("Media...........:", Media)
+            MediaGeral_UF = 0 
+            Media_UF = 0 
+            for uf in Ufs:
+                print (f'Uf..........: {uf}')
+                tagAno = TagDis.objects.filter(data=ano)
+                Participantes_UF = tagAno.filter(uf=uf).aggregate(Sum('participantes'))
+                Inscritos_UF = tagAno.filter(uf=uf).aggregate(Sum('inscritos'))
+
+                soma_media_uf = tagAno.filter(uf=uf).aggregate(Sum('media_geral'))
+
+                MediaGeral_UF = MediaGeral_UF + ( 
+                                                (sum(Participantes_UF[x] for x in Participantes_UF)) * 
+                                                (sum(soma_media_uf[x] for x in soma_media_uf))
+                                                )
+                    
+                
+                soma_media_uf = tagAno.filter(uf=uf).aggregate(Sum('media'))
+
+                Media_UF      = Media_UF + (
+                                            (sum(Inscritos_UF[x] for x in Inscritos_UF)) * 
+                                            (sum(soma_media_uf[x] for x in soma_media_uf))
+                                            )
+
+            # print(type(MediaGeral_UF))
+            # print(type(Participantes))
+            # print(type(Media_UF))   
+            # print(type(Inscritos))
+
+            MediaGeral = (MediaGeral_UF / (sum(Participantes[x] for x in Participantes)))
+            Media = (Media_UF/ (sum(Inscritos[x] for x in Inscritos)))
+
+            # print("Inscritos.......:", Inscritos)
+            # print("Participantes...:", Participantes)
+            # print("Faltantes.......:", Faltantes)
+            # print("Media Geral.....:", MediaGeral)
+            # print("Media...........:", Media)
 
             inscritos.append(Inscritos['inscritos__sum'])
             participantes.append(Participantes['participantes__sum'])
             faltantes.append(Faltantes['faltantes__sum'])
-            media_geral.append(round(MediaGeral['media_geral__avg'], 2))
-            media.append(round(Media['media__avg'], 2))
+            media_geral.append(round(MediaGeral, 2))
+            media.append(round(Media, 2))
 
         print("x"*30)
         print(categories)
