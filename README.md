@@ -132,8 +132,6 @@ Dentro da pasta projeto você encontrará os seguintes diretórios e arquivos:
 <br>
 
 ### ⭐ Estatísticas do GitHub
-<p><img align="left" src="https://github-readme-stats.vercel.app/api/top-langs?username=projeto-analise-microdados-enem2021&show_icons=true&locale=en&layout=compact" alt="projeto-analise-microdados-enem2021" /></p> 
- 
-<p> <img align="center" src="https://github-readme-stats.vercel.app/api?username=projeto-analise-microdados-enem2021&show_icons=true&locale=en" alt="projeto-analise-microdados-enem2021" /></p> 
- 
-<p align="left"> <img src= "https://komarev.com/ghpvc/?username=projeto-analise-microdados-enem2021&label=Profile%20views&color=0e75b6&style=flat" alt="projeto-analise-microdados-enem2021" /> </p>
+<p align="left">  
+  <img src="https://github-readme-stats.vercel.app/api/top-langs?username=dados-marinho-junior&show_icons=true&locale=en&layout=compact" alt="projeto-analise-microdados-enem2021" /></p>  
+  <img src= "https://komarev.com/ghpvc/?username=projeto-analise-microdados-enem2021&label=Profile%20views&color=0e75b6&style=flat" alt="projeto-analise-microdados-enem2021" /> </p>
